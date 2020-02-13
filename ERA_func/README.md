@@ -197,6 +197,21 @@ rviz-25] killing on exit
   <img width="800" height="488" src="./Results/bag_file_nogaz.png">
 </p>
 
+<p align="center">
+  <img width="800" height="488" src="./Results/bag_file_2_nogaz.png">
+</p>
+
+<p align="center">
+  <img width="800" height="488" src="./Results/bag_file_3_nogaz.png">
+</p>
+
+<p align="center">
+  <img width="800" height="488" src="./Results/bag_file_4_nogaz.png">
+</p>
+
+<p align="center">
+  <img width="800" height="488" src="./Results/linx_perf_bag_2.png>
+</p>
 
  ### Modules
  
@@ -225,7 +240,7 @@ Robot starting interface:
 
 Robot during movement:
 <p align="center">
-  <img width="800" height="488" src="./Results/keyboard_2.png)>
+  <img width="800" height="488" src="./Results/keyboard_2.png>
 </p>
 
 Robot Movement:
