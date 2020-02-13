@@ -193,25 +193,6 @@ rviz-25] killing on exit
   <img width="800" height="488" src="./Results/bag_file_1.png">
 </p>
 
-<p align="center">
-  <img width="800" height="488" src="./Results/bag_file_nogaz.png">
-</p>
-
-<p align="center">
-  <img  src="./Results/bag_file_2_nogaz.png">
-</p>
-
-<p align="center">
-  <img  src="./Results/bag_file_3_nogaz.png">
-</p>
-
-<p align="center">
-  <img width="800" height="488" src="./Results/bag_file_4_nogaz.png">
-</p>
-
-<p align="center">
-  <img width="800" height="488" src="./Results/linx_perf_bag_2.png>
-</p>
 
  ### Modules
  
