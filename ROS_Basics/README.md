@@ -4,6 +4,7 @@
 
 ## Content
 * What is ROS?
+* ROS filesystem
 * ROS Concepts
 * ROS Programming
 * ROS Tools
@@ -22,11 +23,23 @@ The software in the ROS ecosystem can be separated into three important groups:
 1. ROS client library implementations such as roscpp, rospy, and roslisp;
 1. Packages containing application-related code which uses one or more ROS client libraries.
 
+## ROS Filesystem
+The filesystem level concepts mainly cover ROS resources that you encounter on disk, such as:
+
+    Packages: Packages are the main unit for organizing software in ROS. A package may contain ROS runtime processes (nodes), a ROS-dependent library, datasets, configuration files, or anything else that is usefully organized together. Packages are the most atomic build item and release item in ROS. Meaning that the most granular thing you can build and release is a package.
+
+    Metapackages: Metapackages are specialized Packages which only serve to represent a group of related other packages. Most commonly metapackages are used as a backwards compatible place holder for converted rosbuild Stacks.
+
+    Package Manifests: Manifests (package.xml) provide metadata about a package, including its name, version, description, license information, dependencies, and other meta information like exported packages. The package.xml package manifest is defined in REP-0127.
+
+    Repositories: A collection of packages which share a common VCS system. Packages which share a VCS share the same version and can be released together using the catkin release automation tool bloom. Often these repositories will map to converted rosbuild Stacks. Repositories can also contain only one package.
+
+    Message (msg) types: Message descriptions, stored in my_package/msg/MyMessageType.msg, define the data structures for messages sent in ROS.
+
+    Service (srv) types: Service descriptions, stored in my_package/srv/MyServiceType.srv, define the request and response data structures for services in ROS. 
+
 
 ## ROS Concepts
-
-#### Workspace
-
 
 #### Nodes
 Nodes are processes that perform computation. ROS is designed to be modular at a fine-grained scale; a robot control system usually comprises many nodes. For example, one node controls a laser range-finder, one node controls the wheel motors, one node performs localization, one node performs path planning, one 
