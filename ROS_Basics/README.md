@@ -86,33 +86,39 @@ ROS processes are represented as nodes in a graph structure, connected by edges 
 
 ## ROS Programming 
 
-#### C++
+#### roscpp
+roscpp is a C++ implementation of ROS. It provides a client library that enables C++ programmers to quickly interface with ROS Topics, Services, and Parameters. roscpp is the most widely used ROS client library and is designed to be the high-performance library for ROS.
 
+[Here you](http://wiki.ros.org/roscpp_tutorials) can find a website with tutorials about how to use this library.
 
-#### Python
+#### rospy
+rospy is the pure Python client library for ROS and is designed to provide the advantages of an object-oriented scripting language to ROS. The design of rospy favors implementation speed (i.e. developer time) over runtime performance so that algorithms can be quickly prototyped and tested within ROS. It is also ideal for non-critical-path code, such as configuration and initialization code. Many of the ROS tools are written in rospy to take advantage of the type introspection capabilities. The ROS Master, roslaunch, and other ros tools are developed in rospy, so Python is a core dependency of ROS. 
 
+[Here you](http://wiki.ros.org/rospy_tutorials) can find a website with tutorials about how to use this library.
 
-#### Publisher & Subscriber Test
+#### roslip
+roslisp is a client library for LISP and is currently being used for the development of planning libraries. It supports both standalone node creation and interactive use in a running ROS system. 
 
-
-## ROS Tools
-
-#### Title
-
-
-#### Title
-
+[Here you](http://wiki.ros.org/roslisp/Overview) can find a website with the overview about how to use this library.
 
 ## ROS in ERA
+After running the basic initial launch of the era_gazebo model and watching the output of the program when it is killed, we can observe the next modules used on the software ERA (wherever you see r1, the output had the same for r0, so we ommited that part):
 
+```
+[rviz-23] killing on exit
+[r1/map_fuser-22] killing on exit
+[r1/wifi_transceiver-21] killing on exit
+[r1/ERAmsgBuilder_node-19] killing on exit
+[r1/costmap_node-18] killing on exit
+[r1/transform_publisher-17] killing on exit
+[r1/ERAmsgInterpreter_node-20] killing on exit
+[r1/depthimage_to_laserscan-16] killing on exit
+[r1/laserscan_nodelet_manager-15] killing on exit
+[r1/robot_state_publisher-14] killing on exit
+pdu len 300
+[gazebo-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+```
 
-##### Title
-
-
-##### Title
-
-
-
-
-
-
+So, the next steps are going to be [explaining all the modules](./ERA_func) that participate on the software and what they do exactly.
