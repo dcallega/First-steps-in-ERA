@@ -60,10 +60,7 @@ Finally, this is what pops out when we execute the command:
 </p>
 
   #### Modules
-
-
-
-  #### Modules Used
+  
   
   #### What Can We Do?
 
@@ -97,40 +94,28 @@ Finally, this is what pops out when we execute the command:
 </p>
 
 <p align="center">
-  <img src="">
-</p>
-
-<p align="center">
   <img src="./Results/bag_file_nogaz.png">
 </p>
 
 <p align="center">
-  <img src="">
+  <img src="./Results/bag_file_2_nogaz.png">
 </p>
 
 <p align="center">
-  <img src="">
+  <img src="./Results/bag_file_3_nogaz.png">
 </p>
 
 <p align="center">
-  <img src="">
+  <img src="./Results/bag_file_4_nogaz.png">
 </p>
 
- #### Software
+<p align="center">
+  <img src="./Results/linx_perf_bag_2.png>
+</p>
+
+ ### Modules
  
-
-
-![Alt Text](./Results/bag_file_2_nogaz.png)
-
-![Alt Text](./Results/bag_file_3_nogaz.png)
-
-![Alt Text](./Results/bag_file_4_nogaz.png)
-
-![Alt Text](./Results/linx_perf_bag_2.png)
-
-
- #### Modules Used
-  
+ 
  #### What Can We Do?
 
 ## Move the robot by yourself!
@@ -149,19 +134,26 @@ In our case, the names of the robots are r0 & r1. The instructions are simple, i
  #### Terminal Output
  
 Robot starting interface:
-![Robot starting interface](./Results/keyboard_1.png)
+<p align="center">
+  <img src="./Results/keyboard_1.png>
+</p>
 
 Robot during movement:
-![Robot during movement](./Results/keyboard_2.png)
+<p align="center">
+  <img src="./Results/keyboard_2.png)>
+</p>
+
 
  #### Software
- 
+ <p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
 Robot Movement:
 ![Robot Movement](./Results/keyboard_3.png)
 
- #### Modules Used
+ #### Modules
  
- On the environment in general, they are exactly the same ones as commented before on the case without the bag, but on each one of the robots, we generate the node turtlebot3_teleop_keyboard (turtlebot3_teleop/turtlebot3_teleop_key).
+On the environment in general, they are exactly the same ones as commented before on the case without the bag, but on each one of the robots, we generate the node turtlebot3_teleop_keyboard (turtlebot3_teleop/turtlebot3_teleop_key).
  
 Also, observing the terminal output, you can see as a preconfiguration, that it starts an automatic master. What does this mean? That if you alter the configuration, you can control both robots from different computers if they use the same software. As a default, the IP & port default are http://localhost:11311 but we can modify it following the instructions on the [ERA Wiki for 2 computers](https://github.com/IBM/era/wiki/ERA-in-two-computers).
 
