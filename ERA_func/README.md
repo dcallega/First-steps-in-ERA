@@ -2,13 +2,25 @@
 Here we will explain more profoundly, what the main instructions from the [ERA GitHub](https://github.com/IBM/era) exactly do and what are the main components of the software. 
 
 ## Basic steps
-To explain ERA in general, we can execute the most basic command that prompts all the tools that are involved on the ERA software, but before that, as we know from the previous [ROS Basics](../ROS_Basics) :
+
+If you observe the code of the GitHub repository, you will find out that there is a folder called **Mini-ERA**. Then what is the difference between ERA and Mini-ERA? 
+
+ERA v2 is basically a meta repository. The real code of ERA is found in https://github.com/IBM/era_gazebo and https://github.com/IBM/dsrc. The DSRC one is the GNUradio code. 
+
+In general, it creates an environemnt where you have two vehicles, each one builds and transmits an occupancy map based on the laser data. When a vehicle receives a map from another vehicle, it merges it with the local one to obtain a bigger, richer map. As we were informed, the next version of ERA (they call it ERA v3) will include object detection with CNN, and possible some additional computer vision methods. 
+
+Also, this next version will be basically a merge of Mini-ERA and ERA v2! 
+
+Why? Well because mini-era consists of a DNN based object detection and labeled occupancy grid creation. You can find Mini-ERA is in era_gazebo package.
+
+
+Finally, to start explaing ERA in general, it is better to execute the most basic commands to see what prompts and all the tools that are involved in the software, but before that, for every terminal that we open involved on ROS commands, we must type:
 
 > ```
 > source /home/*your_username*/catkin_ws/devel/setup.bash
 > ```
 
-Because typing this commands on every terminal that we open can become tedious, on the folder [Automatization](../Automatization), you will find bash scripts that execute the former commands and makes the task easy and comfortable. 
+Because typing this commands on every terminal that we open can sometimes become tedious, on the folder [Automatization](../Automatization), you will find bash scripts that execute the former commands and makes the task easy and comfortable. 
 
 **Remember!** You have to give permissions (sudo chmod +x <name_of_the_file>) to be able to execute it!
 
