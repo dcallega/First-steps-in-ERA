@@ -235,12 +235,12 @@ In our case, the names of the robots are r0 & r1. The instructions are simple, i
  
 Robot starting interface:
 <p align="center">
-  <img width="800" height="488" src="./Results/keyboard_1.png>
+  <img width="800" height="488" src="./Results/keyboard_1.png">
 </p>
 
 Robot during movement:
 <p align="center">
-  <img width="800" height="488" src="./Results/keyboard_2.png>
+  <img width="800" height="488" src="./Results/keyboard_2.png">
 </p>
 
 Robot Movement:
