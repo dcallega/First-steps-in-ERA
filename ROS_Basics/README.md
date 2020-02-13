@@ -1,6 +1,7 @@
 # ROS Basics
 
 ## Introduction
+If you want to understand and follow correctly the [First Steps in ERA](../), first of all you need some basic knowledge on ROS and how it exactly works.
 
 ## Content
 * What is ROS?
@@ -100,6 +101,9 @@ rospy is the pure Python client library for ROS and is designed to provide the a
 roslisp is a client library for LISP and is currently being used for the development of planning libraries. It supports both standalone node creation and interactive use in a running ROS system. 
 
 [Here you](http://wiki.ros.org/roslisp/Overview) can find a website with the overview about how to use this library.
+
+### Tutorial
+One of our colleagues, created a similar approach to this repository with GitHub but with a more practical point of view. To not make this page larger than it should be, we attach you the [link](https://github.com/dcallega/ROS_Batbold_experience) if you want to produce code and really understand how the program works. The original [ROS website](http://wiki.ros.org/ROS/StartGuide) is also a good idea if you want to truly become a master on this software
 
 ## ROS in ERA
 After running the basic initial launch of the era_gazebo model and watching the output of the program when it is killed, we can observe the next modules used on the software ERA (wherever you see r1, the output had the same for r0, so we ommited that part):
