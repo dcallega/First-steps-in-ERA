@@ -198,11 +198,11 @@ rviz-25] killing on exit
 </p>
 
 <p align="center">
-  <img width="850" height="500" src="./Results/bag_file_2_nogaz.png">
+  <img  src="./Results/bag_file_2_nogaz.png">
 </p>
 
 <p align="center">
-  <img width="800" height="488" src="./Results/bag_file_3_nogaz.png">
+  <img  src="./Results/bag_file_3_nogaz.png">
 </p>
 
 <p align="center">
