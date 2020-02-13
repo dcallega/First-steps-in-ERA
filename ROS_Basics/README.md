@@ -125,4 +125,4 @@ pdu len 300
 [master] killing on exit
 ```
 
-So, the next steps are going to be [explaining all the modules](./ERA_func) that participate on the software and what they do exactly.
+So, the next steps are going to be [explaining all the modules](../ERA_func) that participate on the software and what they do exactly.
