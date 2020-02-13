@@ -210,7 +210,7 @@ rviz-25] killing on exit
 </p>
 
 <p align="center">
-  <img width="800" height="488" src="./Results/linx_perf_bag_2.png>
+  <img width="800" height="488" src="./Results/linx_perf_bag_2.png">
 </p>
 
  ### Modules
