@@ -11,7 +11,9 @@ In general, it creates an environemnt where you have two vehicles, each one buil
 
 Also, this next version will be basically a merge of Mini-ERA and ERA v2! 
 
-Why? Well because mini-era consists of a DNN based object detection and labeled occupancy grid creation. You can find Mini-ERA is in era_gazebo package.
+Why? 
+
+Well because Mini-ERA consists of a DNN based object detection and labeled occupancy grid creation and that is what the third version will include on the future. You can find Mini-ERA in era_gazebo package.
 
 
 Finally, to start explaing ERA in general, it is better to execute the most basic commands to see what prompts and all the tools that are involved in the software, but before that, for every terminal that we open involved on ROS commands, we must type:
