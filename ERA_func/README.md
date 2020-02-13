@@ -50,13 +50,13 @@ pdu len 300
 
 Also, we observe the exchange of messages between the two turtlebot3s:
 <p align="center">
-  <img width="738" height="488" src="./Results/basic_1.png">
+  <img width="800" height="488" src="./Results/basic_1.png">
 </p>
 
 
 Finally, this is what pops out when we execute the command:
 <p align="center">
-  <img width="738" height="488" src="./Results/basic_2.png">
+  <img width="800" height="488" src="./Results/basic_2.png">
 </p>
 
   #### Modules
@@ -90,27 +90,27 @@ Finally, this is what pops out when we execute the command:
 
 
 <p align="center">
-  <img width="738" height="488" src="./Results/bag_file_1.png">
+  <img width="800" height="488" src="./Results/bag_file_1.png">
 </p>
 
 <p align="center">
-  <img width="738" height="488" src="./Results/bag_file_nogaz.png">
+  <img width="800" height="488" src="./Results/bag_file_nogaz.png">
 </p>
 
 <p align="center">
-  <img width="738" height="488" src="./Results/bag_file_2_nogaz.png">
+  <img width="800" height="488" src="./Results/bag_file_2_nogaz.png">
 </p>
 
 <p align="center">
-  <img width="738" height="488" src="./Results/bag_file_3_nogaz.png">
+  <img width="800" height="488" src="./Results/bag_file_3_nogaz.png">
 </p>
 
 <p align="center">
-  <img width="738" height="488" src="./Results/bag_file_4_nogaz.png">
+  <img width="800" height="488" src="./Results/bag_file_4_nogaz.png">
 </p>
 
 <p align="center">
-  <img width="738" height="488" src="./Results/linx_perf_bag_2.png>
+  <img width="800" height="488" src="./Results/linx_perf_bag_2.png>
 </p>
 
  ### Modules
@@ -135,17 +135,17 @@ In our case, the names of the robots are r0 & r1. The instructions are simple, i
  
 Robot starting interface:
 <p align="center">
-  <img width="738" height="488" src="./Results/keyboard_1.png>
+  <img width="800" height="488" src="./Results/keyboard_1.png>
 </p>
 
 Robot during movement:
 <p align="center">
-  <img width="738" height="488" src="./Results/keyboard_2.png)>
+  <img width="800" height="488" src="./Results/keyboard_2.png)>
 </p>
 
 Robot Movement:
  <p align="center">
-  <img width="738" height="488"  src="./Results/keyboard_3.png">
+  <img width="800" height="488"  src="./Results/keyboard_3.png">
 </p>
 
 
