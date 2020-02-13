@@ -26,17 +26,26 @@ The software in the ROS ecosystem can be separated into three important groups:
 ## ROS Filesystem
 The filesystem level concepts mainly cover ROS resources that you encounter on disk, such as:
 
-    Packages: Packages are the main unit for organizing software in ROS. A package may contain ROS runtime processes (nodes), a ROS-dependent library, datasets, configuration files, or anything else that is usefully organized together. Packages are the most atomic build item and release item in ROS. Meaning that the most granular thing you can build and release is a package.
+**Packages:**
+Packages are the main unit for organizing software in ROS. A package may contain ROS runtime processes (nodes), a ROS-dependent library, datasets, configuration files, or anything else that is usefully organized together. Packages are the most atomic build item and release item in ROS. Meaning that the most granular thing you can build and release is a package.
 
-    Metapackages: Metapackages are specialized Packages which only serve to represent a group of related other packages. Most commonly metapackages are used as a backwards compatible place holder for converted rosbuild Stacks.
+**Metapackages:** 
+Metapackages are specialized Packages which only serve to represent a group of related other packages. Most commonly metapackages are used as a backwards compatible place holder for converted rosbuild Stacks.
 
-    Package Manifests: Manifests (package.xml) provide metadata about a package, including its name, version, description, license information, dependencies, and other meta information like exported packages. The package.xml package manifest is defined in REP-0127.
+**Package Manifests:**
+Manifests (package.xml) provide metadata about a package, including its name, version, description, license information, dependencies, and other meta information like exported packages. The package.xml package manifest is defined in REP-0127.
 
-    Repositories: A collection of packages which share a common VCS system. Packages which share a VCS share the same version and can be released together using the catkin release automation tool bloom. Often these repositories will map to converted rosbuild Stacks. Repositories can also contain only one package.
+**Repositories:**
+A collection of packages which share a common VCS system. Packages which share a VCS share the same version and can be released together using the catkin release automation tool bloom. Often these repositories will map to converted rosbuild Stacks. Repositories can also contain only one package.
 
-    Message (msg) types: Message descriptions, stored in my_package/msg/MyMessageType.msg, define the data structures for messages sent in ROS.
+**Message (msg) types:**
+Message descriptions, stored in my_package/msg/MyMessageType.msg, define the data structures for messages sent in ROS.
 
-    Service (srv) types: Service descriptions, stored in my_package/srv/MyServiceType.srv, define the request and response data structures for services in ROS. 
+**Service (srv) types:**
+Service descriptions, stored in my_package/srv/MyServiceType.srv, define the request and response data structures for services in ROS. 
+
+#### Workspaces
+Before starting to write any ROS code, we need to set up a workspace. A workspace is simply a set of directories related to ROS codes. We can create multiple workspaces, but can only work in one at time. Click [here to learn](https://github.com/dcallega/ROS_Batbold_experience/tree/master/workspace) how to create a workspace.
 
 
 ## ROS Concepts
