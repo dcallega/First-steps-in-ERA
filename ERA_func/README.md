@@ -1,5 +1,5 @@
 # What does ERA exactly do?
-Here we will explain more profoundly, what the main instructions from the [ERA GitHub](https://github.com/IBM/era) exactly do and what are the main components of the software. 
+You are on the tutorial on how to take the [First Steps on ERA](https://github.com/haerba/First-steps-in-ERA). On this section, we will explain more profoundly, what the main instructions from the [ERA GitHub](https://github.com/IBM/era) exactly do and what are the main components of the software. 
 
 ## Basic steps
 
