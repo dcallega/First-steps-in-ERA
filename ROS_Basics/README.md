@@ -1,7 +1,7 @@
 # ROS Basics
 
 ## Introduction
-If you want to understand and follow correctly the [First Steps in ERA](../), first of all you need some basic knowledge on ROS and how it exactly works.
+If you want to understand and follow correctly the [First Steps in ERA](https://github.com/dcallega/First-steps-in-ERA), first of all you need some basic knowledge on ROS and how it exactly works.
 
 ## Content
 * What is ROS?
