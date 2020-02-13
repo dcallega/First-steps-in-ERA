@@ -10,7 +10,7 @@ To explain ERA in general, we can execute the most basic command that prompts al
 
 Because typing this commands on every terminal that we open can become tedious, on the folder [Automatization](../Automatization), you will find bash scripts that execute the former commands and makes the task easy and comfortable. 
 
-Remember! You have to give permissions (sudo chmod +x <name_of_the_file>) to be able to execute it!
+**Remember!** You have to give permissions (sudo chmod +x <name_of_the_file>) to be able to execute it!
 
 
 ## Content
@@ -27,14 +27,41 @@ Remember! You have to give permissions (sudo chmod +x <name_of_the_file>) to be 
 > roslaunch era_gazebo era_melodic.launch
 > ```
 
-  #### Terminal Output
+  #### Output
 
-Terminal Message
-![Terminal Message](./Results/basic_1.png)
+By watching the output of the program when it is killed, we can observe the next modules used on the software ERA (wherever you see r1, the output had the same for r0, so we ommited that part):
 
-  #### Software
+```
+[rviz-23] killing on exit
+[r1/map_fuser-22] killing on exit
+[r1/wifi_transceiver-21] killing on exit
+[r1/ERAmsgBuilder_node-19] killing on exit
+[r1/costmap_node-18] killing on exit
+[r1/transform_publisher-17] killing on exit
+[r1/ERAmsgInterpreter_node-20] killing on exit
+[r1/depthimage_to_laserscan-16] killing on exit
+[r1/laserscan_nodelet_manager-15] killing on exit
+[r1/robot_state_publisher-14] killing on exit
+pdu len 300
+[gazebo-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+```
 
-![RVZfiz](./Results/basic_2.png)
+Also, we observe the exchange of messages between the two turtlebot3s:
+<p align="center">
+  <img src="./Results/basic_1.png">
+</p>
+
+
+Finally, this is what pops out when we execute the command:
+<p align="center">
+  <img src="./Results/basic_2.png">
+</p>
+
+  #### Modules
+
+
 
   #### Modules Used
   
@@ -62,13 +89,36 @@ Terminal Message
 > ```
 
 
- #### Terminal Output
+ #### Output
+
+
+<p align="center">
+  <img src="./Results/bag_file_1.png">
+</p>
+
+<p align="center">
+  <img src="">
+</p>
+
+<p align="center">
+  <img src="./Results/bag_file_nogaz.png">
+</p>
+
+<p align="center">
+  <img src="">
+</p>
+
+<p align="center">
+  <img src="">
+</p>
+
+<p align="center">
+  <img src="">
+</p>
 
  #### Software
  
-![Alt Text](./Results/bag_file_1.png)
- 
-![Alt Text](./Results/bag_file_nogaz.png)
+
 
 ![Alt Text](./Results/bag_file_2_nogaz.png)
 
