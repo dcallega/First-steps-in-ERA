@@ -47,23 +47,60 @@ ERA includes components implemented in GNU Radio (gr-ros_interface, gr-foo and g
 
   #### Output
 
-By watching the output of the program when it is killed, we can observe the next modules used on the software ERA (wherever you see r1, the output had the same for r0, so we ommited that part):
+By watching the output of the program when it is started, we can observe the next modules used on the software ERA (wherever you see r1, the output had the same for r0, so we ommited that part):
 
 ```
-[rviz-23] killing on exit
-[r1/map_fuser-22] killing on exit
-[r1/wifi_transceiver-21] killing on exit
-[r1/ERAmsgBuilder_node-19] killing on exit
-[r1/costmap_node-18] killing on exit
-[r1/transform_publisher-17] killing on exit
-[r1/ERAmsgInterpreter_node-20] killing on exit
-[r1/depthimage_to_laserscan-16] killing on exit
-[r1/laserscan_nodelet_manager-15] killing on exit
-[r1/robot_state_publisher-14] killing on exit
-pdu len 300
-[gazebo-2] killing on exit
-[rosout-1] killing on exit
-[master] killing on exit
+SUMMARY
+========
+
+PARAMETERS
+ * [r0 params...]
+ * /r1/ERAmsgBuilder_node/ID: r1
+ * /r1/costmap_node/costmap/always_send_full_costmap: True
+ * /r1/costmap_node/costmap/global_frame: r1/odom
+ * /r1/costmap_node/costmap/height: 5.0
+ * /r1/costmap_node/costmap/obstacles/observation_sources: scan
+ * /r1/costmap_node/costmap/obstacles/scan/clearing: True
+ * /r1/costmap_node/costmap/obstacles/scan/data_type: LaserScan
+ * /r1/costmap_node/costmap/obstacles/scan/marking: True
+ * /r1/costmap_node/costmap/obstacles/scan/sensor_frame: r1/base_footprint
+ * /r1/costmap_node/costmap/obstacles/scan/topic: scan
+ * /r1/costmap_node/costmap/plugins: [{'type': 'costma...
+ * /r1/costmap_node/costmap/publish_frequency: 20.0
+ * /r1/costmap_node/costmap/resolution: 0.05
+ * /r1/costmap_node/costmap/robot_base_frame: r1/base_footprint
+ * /r1/costmap_node/costmap/rolling_window: True
+ * /r1/costmap_node/costmap/static_map: False
+ * /r1/costmap_node/costmap/update_frequency: 20.0
+ * /r1/costmap_node/costmap/width: 5.0
+ * /r1/depthimage_to_laserscan/output_frame_id: camera_depth_frame
+ * /r1/depthimage_to_laserscan/range_min: 0.45
+ * /r1/depthimage_to_laserscan/scan_height: 10
+ * /r1/robot_description: <?xml version="1....
+ * /r1/robot_state_publisher/publish_frequency: 30.0
+ * /r1/simple_box_description: <robot name="simp...
+ * /r1/tf_prefix: r1
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+ * /use_sim_time: True
+
+NODES
+  / [..]
+    gazebo (gazebo_ros/gzserver)
+    player (rosbag/play)
+    rviz (rviz/rviz)
+  /r1/
+    ERAmsgBuilder_node (era_gazebo/ERAmsgBuilder_node)
+    ERAmsgInterpreter_node (era_gazebo/ERAmsgInterpreter_node)
+    costmap_node (costmap_2d/costmap_2d_node)
+    depthimage_to_laserscan (nodelet/nodelet)
+    laserscan_nodelet_manager (nodelet/nodelet)
+    map_fuser (era_gazebo/map_fuser)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    spawn_urdf (gazebo_ros/spawn_model)
+    transform_publisher (tf/static_transform_publisher)
+    wifi_transceiver (dsrc/wifi_transceiver.py)
+
 ```
 
 Also, we observe the exchange of messages between the two turtlebot3s:
@@ -77,11 +114,15 @@ Finally, this is what pops out when we execute the command:
   <img width="800" height="488" src="./Results/basic_2.png">
 </p>
 
+If you don't execute anything else on a new terminal window, the turtlebots will exchange data but they don't move.
+
   #### Modules
   
   
   #### What Can We Do?
 
+* A good approach that we could take here would **be stopping the exchange of data if the cars stop moving** because they are sending **redundant** data.
+* On other sections, you will found out **how can we make the robots move**. Also, on RViz you can observe the different **parameters and their values**, in order to take some results for specific experiments.
 
 ## Bag File
 
@@ -91,8 +132,8 @@ Sometimes, if you want to take conclusions and find sustainable answers to your 
 > ```
 > roslaunch era_gazebo era_playback_melodic.launch bag_name:=/home/hackfest03/catkin_ws/src/era_gazebo/bagfiles/cmd_vel_r0.bag
 > ```
-**If you find problems on the execution of these commands**, go to the last section, **Troubleshooting**.
 
+**If you find problems on the execution of these commands**, go to the last section, **Troubleshooting**.
 
 #### Command 2
 If you want to take out the RViz and the Gazebo, you can add:
@@ -105,7 +146,23 @@ To launch the workload enabling **Linux perf profiling**:
 > ```
 > roslaunch era_gazebo era_playback_melodic.launch bag_name:=/home/hackfest03/catkin_ws/src/era_gazebo/bagfiles/cmd_vel_r0.bag gui:=false prof:=true
 > ```
-Then once you have enabled it, you can see the information by
+Then once you have enabled it, you can see the data and abstracts away CPU hardware differences in Linux performance measurements and presents a simple commandline interface. Before using the bag, we typed the following commands:
+
+```
+sudo perf record
+sudo perf report
+```
+
+And these were the results:
+<p align="center">
+  <img width="800" height="488" src="./Results/lin_perf_0.png">
+</p>
+After launching the third command, the results are the following when you type the same perf commands:
+<p align="center">
+  <img width="800" height="488" src="./Results/lin_perf_1.png">
+</p>
+
+As you can observe, there are different CPU usages compared to when we did not use obviously. That was an important factor on the paper where ERA was used and it is an interesting approach to solve these types of problems. Here you have a [presentation](https://www.youtube.com/watch?v=kqWUCon0kKg&feature=youtu.be) about this topic.
 
  #### Output
 
@@ -191,7 +248,6 @@ Robot Movement:
   <img width="800" height="488"  src="./Results/keyboard_3.png">
 </p>
 
-
  #### Modules
  
 On the environment in general, they are exactly the same ones as commented before on the case without the bag, but on each one of the robots, we generate the node turtlebot3_teleop_keyboard (turtlebot3_teleop/turtlebot3_teleop_key).
@@ -199,7 +255,7 @@ On the environment in general, they are exactly the same ones as commented befor
 Also, observing the terminal output, you can see as a preconfiguration, that it starts an automatic master. What does this mean? That if you alter the configuration, you can control both robots from different computers if they use the same software. As a default, the IP & port default are http://localhost:11311 but we can modify it following the instructions on the [ERA Wiki for 2 computers](https://github.com/IBM/era/wiki/ERA-in-two-computers).
 
  #### What Can We Do?
-
+As we can observe, compared to when the robots do not move and when they do move, the data packet size and frequence do not change. 
 
 ## Troubleshooting
 After trying to execute the bag file, I had problems because the software was asking for two expected inputs:
