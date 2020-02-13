@@ -8,7 +8,7 @@ ERA  is  an  open-source application that enables multi-vehicle (cooperative)  s
 
 ERA includes components implemented in GNU Radio (gr-ros_interface, gr-foo and gr-ieee802-11) & then also needs ROS Melodic and Gazebo 9, but we will deepen on these aspects later.
 
-The following content is the steps how we started working on ERA. 
+The following content are the steps of how we started working on ERA. 
 ## Content
 * [Installing ERA](https://github.com/IBM/era/wiki/ERA-on-Ubuntu-18.04-with-ROS-Melodic)
 * [ROS Basics](./ROS_Basics)
