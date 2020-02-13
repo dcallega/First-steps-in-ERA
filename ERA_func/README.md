@@ -86,23 +86,26 @@ Finally, this is what pops out when we execute the command:
 ## Bag File
 
  #### Command 1
-  
+
+Sometimes, if you want to take conclusions and find sustainable answers to your problems, a good approach is to analyze the data on a specific experiment. That is why on the ERA software we find a reproducible scenario, where they recorded a random robot trajectory to a bag file that can be played back to recreate the robot's trip in the simulated world. To launch ERA and play back the bag file:
 > ```
 > roslaunch era_gazebo era_playback_melodic.launch bag_name:=/home/hackfest03/catkin_ws/src/era_gazebo/bagfiles/cmd_vel_r0.bag
 > ```
+**If you find problems on the execution of these commands**, go to the last section, **Troubleshooting**.
+
 
 #### Command 2
-  
+If you want to take out the RViz and the Gazebo, you can add:
 > ```
-> roslaunch era_gazebo era_playback_melodic.launch bag_name:=/home/hackfest03/catkin_ws/src/era_gazebo/bagfiles/cmd_vel_r0.bag gui:=false
+> roslaunch era_gazebo era_playback_melodic.launch bag_name:=/home/hackfest03/catkin_ws/src/era_gazebo/bagfiles/cmd_vel_r0.bag **gui:=false**
 > ```
 
 #### Command 3
-  
+To launch the workload enabling **Linux perf profiling**:
 > ```
 > roslaunch era_gazebo era_playback_melodic.launch bag_name:=/home/hackfest03/catkin_ws/src/era_gazebo/bagfiles/cmd_vel_r0.bag gui:=false prof:=true
 > ```
-
+Then once you have enabled it, you can see the information by
 
  #### Output
 
