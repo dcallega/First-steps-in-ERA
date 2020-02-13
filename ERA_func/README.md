@@ -28,10 +28,14 @@ Because typing this commands on every terminal that we open can sometimes become
 
 
 ## Content
+* DSRC & GNU Radio
 * Basic Interaction
 * Bag File
 * Move the robot by yourself!
 * Troubleshooting
+
+## DSRC & GNU Radio
+ERA includes components implemented in GNU Radio (gr-ros_interface, gr-foo and gr-ieee802-11) that have to be built and installed separately as explained next. The **gr-ieee802-11** project is the GNU Radio-based implementation of an IEEE 802.11p transceiver while the **gr-foo** project includes a collection of custom blocks that are used by gr-ieee802-11. The **gr-ros_interface** project implements the interface to connect together the ROS and GNU Radio "worlds".
 
 ## Basic Interaction
 
@@ -102,6 +106,28 @@ Finally, this is what pops out when we execute the command:
 
  #### Output
 
+After killing the three commands, we can observe the same following modules (that is because all three of them use the same launch, the only thing that changes is the options to show more or less content):
+```
+rviz-25] killing on exit
+[r1/map_fuser-24] killing on exit
+[r1/wifi_transceiver-23] killing on exit
+[r1/ERAmsgInterpreter_node-22] killing on exit
+[r1/costmap_node-20] killing on exit
+[r1/ERAmsgBuilder_node-21] killing on exit
+[r1/transform_publisher-19] killing on exit
+[r1/depthimage_to_laserscan-18] killing on exit
+[r1/laserscan_nodelet_manager-17] killing on exit
+[r1/robot_state_publisher-16] killing on exit
+[r0/transform_publisher-9] killing on exit
+[r0/depthimage_to_laserscan-8] killing on exit
+[r1/wifi_transceiver-23] escalating to SIGTERM
+[r0/wifi_transceiver-13] escalating to SIGTERM
+[gazebo_gui-4] escalating to SIGTERM
+[gazebo-3] escalating to SIGTERM
+[rosout-1] killing on exit
+[master] killing on exit
+
+```
 
 <p align="center">
   <img width="800" height="488" src="./Results/bag_file_1.png">
