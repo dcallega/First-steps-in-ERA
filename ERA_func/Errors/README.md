@@ -28,10 +28,10 @@ Example 3:
 ## Files needed
 * On the [Mini-ERA (Standalone version)](https://github.com/IBM/era/wiki/Mini-ERA-(STANDALONE)), when you try to download the video file sample, an IBM user restrictrion appears:
 <p align="center">
-  <img width="800" height="488" src="./file_needed.png">
+  <img width="750" height="350" src="./file_needed.png">
 </p>
 
 * On the [Mini-ERA (ROS version0](https://github.com/IBM/era/wiki/Mini-ERA-(ROS-VERSION)), when you try to download the bag file to reproduce the environment, you find the same IBM user restriction:
 <p align="center">
-  <img width="800" height="488" src="./file_needed_2.png">
+  <img width="750" height="300" src="./file_needed_2.png">
 </p>
