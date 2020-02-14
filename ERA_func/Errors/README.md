@@ -33,5 +33,5 @@ Example 3:
 
 * On the [Mini-ERA (ROS version0](https://github.com/IBM/era/wiki/Mini-ERA-(ROS-VERSION)), when you try to download the bag file to reproduce the environment, you find the same IBM user restriction:
 <p align="center">
-  <img width="750" height="300" src="./file_needed_2.png">
+  <img width="600" height="280" src="./file_needed_2.png">
 </p>
