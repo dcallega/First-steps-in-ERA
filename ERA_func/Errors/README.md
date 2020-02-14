@@ -11,18 +11,18 @@ roslaunch era_gazebo era_playback_melodic.launch bag_name:=/home/hackfest03/catk
 
 Example 1:
 <p align="center">
-  <img width="900" height="550" src="../Results/Troubleshooting/error_1_basic.png">
+  <img width="900" height="550" src="./error_1_basic.png">
 </p>
 
 
 Example 2:
 <p align="center">
-  <img width="900" height="550" src="../Results/Troubleshooting/error_1_bag.png">
+  <img width="900" height="550" src="./error_1_bag.png">
 </p>
 
 Example 3:
 <p align="center">
-  <img width="900" height="550" src="../Results/Troubleshooting/error_2_bag.png">
+  <img width="900" height="550" src="./error_2_bag.png">
 </p>
 
 ## Files needed
