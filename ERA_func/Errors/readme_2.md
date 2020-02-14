@@ -24,7 +24,7 @@ Example 3:
 ## Files needed
 * On the [Mini-ERA (Standalone version)](https://github.com/IBM/era/wiki/Mini-ERA-(STANDALONE)), when you try to download the video file sample, an IBM user restrictrion appears:
 
-![Example](./file_needed.png")
+![Example](./file_needed.png)
 
 * On the [Mini-ERA (ROS version0](https://github.com/IBM/era/wiki/Mini-ERA-(ROS-VERSION)), when you try to download the bag file to reproduce the environment, you find the same IBM user restriction:
 ![Example](./file_needed_2.png)
