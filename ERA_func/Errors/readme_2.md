@@ -10,15 +10,15 @@ roslaunch era_gazebo era_playback_melodic.launch bag_name:=/home/hackfest03/catk
 ```
 
 Example 1:
-![Example](../Results/Troubleshooting/error_1_basic.png)
+![Example](./error_1_basic.png)
 
 
 Example 2:
-![Example](../Results/Troubleshooting/error_1_bag.png)
+![Example](./error_1_bag.png)
 
 Example 3:
 
-![Example](../Results/Troubleshooting/error_2_bag.png)
+![Example](./error_2_bag.png)
 
 
 ## Files needed
