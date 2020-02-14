@@ -11,18 +11,18 @@ roslaunch era_gazebo era_playback_melodic.launch bag_name:=/home/hackfest03/catk
 
 Example 1:
 <p align="center">
-  <img width="900" height="550" src="https://github.com/dcallega/First-steps-in-ERA/tree/master/ERA_func/Results/Troubleshooting/error_1_basic">
+  <img width="900" height="550" src="https://github.com/dcallega/First-steps-in-ERA/tree/master/ERA_func/Results/Troubleshooting/error_1_basic.png">
 </p>
 
 
 Example 2:
 <p align="center">
-  <img width="900" height="550" src="https://github.com/dcallega/First-steps-in-ERA/tree/master/ERA_func/Results/Troubleshooting/error_1_bag">
+  <img width="900" height="550" src="https://github.com/dcallega/First-steps-in-ERA/tree/master/ERA_func/Results/Troubleshooting/error_1_bag.png">
 </p>
 
 Example 3:
 <p align="center">
-  <img width="900" height="550" src="https://github.com/dcallega/First-steps-in-ERA/tree/master/ERA_func/Results/Troubleshooting/error_2_bag">
+  <img width="900" height="550" src="https://github.com/dcallega/First-steps-in-ERA/tree/master/ERA_func/Results/Troubleshooting/error_2_bag.png">
 </p>
 
 ## Files needed
@@ -31,7 +31,7 @@ Example 3:
   <img width="800" height="488" src="./file_needed.png">
 </p>
 
-/* On the [Mini-ERA (ROS version0](https://github.com/IBM/era/wiki/Mini-ERA-(ROS-VERSION)), when you try to download the bag file to reproduce the environment, you find the same IBM user restriction:
+* On the [Mini-ERA (ROS version0](https://github.com/IBM/era/wiki/Mini-ERA-(ROS-VERSION)), when you try to download the bag file to reproduce the environment, you find the same IBM user restriction:
 <p align="center">
   <img width="800" height="488" src="./file_needed_2.png">
 </p>
