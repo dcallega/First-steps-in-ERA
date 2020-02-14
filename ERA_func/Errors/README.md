@@ -31,7 +31,7 @@ Example 3:
   <img width="750" height="350" src="./file_needed.png">
 </p>
 
-* On the [Mini-ERA (ROS version](https://github.com/IBM/era/wiki/Mini-ERA-(ROS-VERSION)), when you try to download the bag file to reproduce the environment, you find the same IBM user restriction:
+* On the [Mini-ERA (ROS version)](https://github.com/IBM/era/wiki/Mini-ERA-(ROS-VERSION)), when you try to download the bag file to reproduce the environment, you find the same IBM user restriction:
 <p align="center">
   <img width="600" height="280" src="./file_needed_2.png">
 </p>
