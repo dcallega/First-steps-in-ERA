@@ -1,0 +1,8 @@
+prefix=/home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/install
+
+Name: era_gazebo
+Description: Description of era_gazebo
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp gazebo_ros tf message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/install
+
+Name: carla_ackermann_control
+Description: Description of carla_ackermann_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
