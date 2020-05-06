@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hackfest03/ERA/catkin_ws/devel/include/era_gazebo/ERAOccupancyGrid.h
+/home/hackfest03/catkin_ws/devel/include/era_gazebo/ERAOccupancyGrid.h
 string
 -
 vector
@@ -26,13 +26,13 @@ std_msgs/Header.h
 nav_msgs/MapMetaData.h
 -
 
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/message_generator.cpp
+/home/hackfest03/catkin_ws/src/era_gazebo/src/message_generator.cpp
 ros/ros.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/ros/ros.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/ros/ros.h
 nav_msgs/OccupancyGrid.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/nav_msgs/OccupancyGrid.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/nav_msgs/OccupancyGrid.h
 era_gazebo/ERAOccupancyGrid.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/era_gazebo/ERAOccupancyGrid.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/era_gazebo/ERAOccupancyGrid.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

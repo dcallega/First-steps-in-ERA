@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/install/setup.sh
+    local-name: /home/hackfest03/catkin_ws/install/setup.sh

@@ -1,2 +1,2 @@
-set(carla_waypoint_types_MESSAGE_FILES "/home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/src/ros-bridge/carla_waypoint_types/msg/CarlaWaypoint.msg")
-set(carla_waypoint_types_SERVICE_FILES "/home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/src/ros-bridge/carla_waypoint_types/srv/GetWaypoint.srv;/home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/src/ros-bridge/carla_waypoint_types/srv/GetActorWaypoint.srv")
+set(carla_waypoint_types_MESSAGE_FILES "/home/hackfest03/catkin_ws/src/ros-bridge/carla_waypoint_types/msg/CarlaWaypoint.msg")
+set(carla_waypoint_types_SERVICE_FILES "/home/hackfest03/catkin_ws/src/ros-bridge/carla_waypoint_types/srv/GetWaypoint.srv;/home/hackfest03/catkin_ws/src/ros-bridge/carla_waypoint_types/srv/GetActorWaypoint.srv")

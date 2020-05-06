@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/fake_laser.cpp
+/home/hackfest03/catkin_ws/src/era_gazebo/src/fake_laser.cpp
 ros/ros.h
 -
 sensor_msgs/LaserScan.h

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/hackfest03/ERA/catkin_ws/src/dsrc/utils/remote_agent.cpp
+/home/hackfest03/catkin_ws/src/dsrc/utils/remote_agent.cpp
 ros/ros.h
-/home/hackfest03/ERA/catkin_ws/src/dsrc/utils/ros/ros.h
+/home/hackfest03/catkin_ws/src/dsrc/utils/ros/ros.h
 std_msgs/String.h
-/home/hackfest03/ERA/catkin_ws/src/dsrc/utils/std_msgs/String.h
+/home/hackfest03/catkin_ws/src/dsrc/utils/std_msgs/String.h
 string
 -
 sys/socket.h

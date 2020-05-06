@@ -67,14 +67,14 @@ set(rviz_carla_plugin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_carla_plugin_SOURCE_PREFIX /home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/src/ros-bridge/rviz_carla_plugin)
-  set(rviz_carla_plugin_DEVEL_PREFIX /home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/devel)
+  set(rviz_carla_plugin_SOURCE_PREFIX /home/hackfest03/catkin_ws/src/ros-bridge/rviz_carla_plugin)
+  set(rviz_carla_plugin_DEVEL_PREFIX /home/hackfest03/catkin_ws/devel)
   set(rviz_carla_plugin_INSTALL_PREFIX "")
   set(rviz_carla_plugin_PREFIX ${rviz_carla_plugin_DEVEL_PREFIX})
 else()
   set(rviz_carla_plugin_SOURCE_PREFIX "")
   set(rviz_carla_plugin_DEVEL_PREFIX "")
-  set(rviz_carla_plugin_INSTALL_PREFIX /home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/install)
+  set(rviz_carla_plugin_INSTALL_PREFIX /home/hackfest03/catkin_ws/install)
   set(rviz_carla_plugin_PREFIX ${rviz_carla_plugin_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/install/lib;/home/hackfest03/ERA/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/hackfest03/catkin_ws/install/lib;/home/hackfest03/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

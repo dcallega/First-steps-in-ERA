@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 # generated from dynamic_reconfigure/cmake/setup_custom_pythonpath.sh.in
 
-PYTHONPATH=/home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH
+PYTHONPATH=/home/hackfest03/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH
 exec "$@"

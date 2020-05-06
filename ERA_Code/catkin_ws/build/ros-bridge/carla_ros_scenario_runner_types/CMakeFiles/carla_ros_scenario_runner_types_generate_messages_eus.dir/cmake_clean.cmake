@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/carla_ros_scenario_runner_types_generate_messages_eus"
-  "/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioRunnerStatus.l"
-  "/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/msg/CarlaScenario.l"
-  "/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioList.l"
-  "/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/srv/ExecuteScenario.l"
-  "/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/manifest.l"
+  "/home/hackfest03/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/msg/CarlaScenario.l"
+  "/home/hackfest03/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioList.l"
+  "/home/hackfest03/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/msg/CarlaScenarioRunnerStatus.l"
+  "/home/hackfest03/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/srv/ExecuteScenario.l"
+  "/home/hackfest03/catkin_ws/devel/share/roseus/ros/carla_ros_scenario_runner_types/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

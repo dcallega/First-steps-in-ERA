@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hackfest03/ERA/catkin_ws/devel/include/era_gazebo/ERAMsg.h
+/home/hackfest03/catkin_ws/devel/include/era_gazebo/ERAMsg.h
 string
 -
 vector
@@ -28,11 +28,11 @@ geometry_msgs/Pose.h
 nav_msgs/OccupancyGrid.h
 -
 
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/include/combine_grids.h
+/home/hackfest03/catkin_ws/src/era_gazebo/include/combine_grids.h
 nav_msgs/OccupancyGrid.h
 -
 
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/include/coordinate_conversions.h
+/home/hackfest03/catkin_ws/src/era_gazebo/include/coordinate_conversions.h
 exceptions.h
 -
 tf/transform_datatypes.h
@@ -48,7 +48,7 @@ cstdlib
 ostream
 -
 
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/include/exceptions.h
+/home/hackfest03/catkin_ws/src/era_gazebo/include/exceptions.h
 boost/format.hpp
 -
 stdexcept
@@ -56,7 +56,7 @@ stdexcept
 geometry_msgs/Point.h
 -
 
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/combine_grids.cpp
+/home/hackfest03/catkin_ws/src/era_gazebo/src/combine_grids.cpp
 combine_grids.h
 -
 coordinate_conversions.h
@@ -74,13 +74,13 @@ boost/ref.hpp
 set
 -
 
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/coordinate_conversions.cpp
+/home/hackfest03/catkin_ws/src/era_gazebo/src/coordinate_conversions.cpp
 coordinate_conversions.h
 -
 
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/map_fuser.cpp
+/home/hackfest03/catkin_ws/src/era_gazebo/src/map_fuser.cpp
 ros/ros.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/ros/ros.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/ros/ros.h
 message_filters/subscriber.h
 -
 message_filters/synchronizer.h
@@ -88,11 +88,11 @@ message_filters/synchronizer.h
 message_filters/sync_policies/approximate_time.h
 -
 combine_grids.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/combine_grids.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/combine_grids.h
 era_gazebo/ERAMsg.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/era_gazebo/ERAMsg.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/era_gazebo/ERAMsg.h
 nav_msgs/OccupancyGrid.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/nav_msgs/OccupancyGrid.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/nav_msgs/OccupancyGrid.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

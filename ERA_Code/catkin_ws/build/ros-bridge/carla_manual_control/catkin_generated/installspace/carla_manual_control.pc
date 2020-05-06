@@ -1,4 +1,4 @@
-prefix=/home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/install
+prefix=/home/hackfest03/catkin_ws/install
 
 Name: carla_manual_control
 Description: Description of carla_manual_control

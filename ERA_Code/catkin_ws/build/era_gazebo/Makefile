@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hackfest03/ERA/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hackfest03/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hackfest03/ERA/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hackfest03/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hackfest03/ERA/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hackfest03/ERA/catkin_ws/build/CMakeFiles /home/hackfest03/ERA/catkin_ws/build/era_gazebo/CMakeFiles/progress.marks
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hackfest03/ERA/catkin_ws/build/CMakeFiles 0
+	cd /home/hackfest03/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hackfest03/catkin_ws/build/CMakeFiles /home/hackfest03/catkin_ws/build/era_gazebo/CMakeFiles/progress.marks
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hackfest03/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/clean
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/preinstall
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/preinstall
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hackfest03/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/og_labeler.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/og_labeler.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/og_labeler.dir/rule
 .PHONY : era_gazebo/CMakeFiles/og_labeler.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ og_labeler: era_gazebo/CMakeFiles/og_labeler.dir/rule
 
 # fast build rule for target.
 og_labeler/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/og_labeler.dir/build.make era_gazebo/CMakeFiles/og_labeler.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/og_labeler.dir/build.make era_gazebo/CMakeFiles/og_labeler.dir/build
 .PHONY : og_labeler/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/rule
 .PHONY : era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ ERAmsgInterpreter_node: era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/rule
 
 # fast build rule for target.
 ERAmsgInterpreter_node/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build
 .PHONY : ERAmsgInterpreter_node/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/rule
 .PHONY : era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ ERAmsgBuilder_node: era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/rule
 
 # fast build rule for target.
 ERAmsgBuilder_node/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build
 .PHONY : ERAmsgBuilder_node/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/message_generator.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/message_generator.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/message_generator.dir/rule
 .PHONY : era_gazebo/CMakeFiles/message_generator.dir/rule
 
 # Convenience name for target.
@@ -224,87 +224,12 @@ message_generator: era_gazebo/CMakeFiles/message_generator.dir/rule
 
 # fast build rule for target.
 message_generator/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/message_generator.dir/build.make era_gazebo/CMakeFiles/message_generator.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/message_generator.dir/build.make era_gazebo/CMakeFiles/message_generator.dir/build
 .PHONY : message_generator/fast
 
 # Convenience name for target.
-era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/rule
-.PHONY : era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/rule
-
-# Convenience name for target.
-_era_gazebo_generate_messages_check_deps_DetectionBoxList: era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/rule
-
-.PHONY : _era_gazebo_generate_messages_check_deps_DetectionBoxList
-
-# fast build rule for target.
-_era_gazebo_generate_messages_check_deps_DetectionBoxList/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/build
-.PHONY : _era_gazebo_generate_messages_check_deps_DetectionBoxList/fast
-
-# Convenience name for target.
-era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/rule
-.PHONY : era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/rule
-
-# Convenience name for target.
-_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid: era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/rule
-
-.PHONY : _era_gazebo_generate_messages_check_deps_ERAOccupancyGrid
-
-# fast build rule for target.
-_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/build
-.PHONY : _era_gazebo_generate_messages_check_deps_ERAOccupancyGrid/fast
-
-# Convenience name for target.
-era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/rule
-.PHONY : era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/rule
-
-# Convenience name for target.
-_era_gazebo_generate_messages_check_deps_DetectionBox: era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/rule
-
-.PHONY : _era_gazebo_generate_messages_check_deps_DetectionBox
-
-# fast build rule for target.
-_era_gazebo_generate_messages_check_deps_DetectionBox/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/build
-.PHONY : _era_gazebo_generate_messages_check_deps_DetectionBox/fast
-
-# Convenience name for target.
-era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/rule
-.PHONY : era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/rule
-
-# Convenience name for target.
-_era_gazebo_generate_messages_check_deps_SceneBBox: era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/rule
-
-.PHONY : _era_gazebo_generate_messages_check_deps_SceneBBox
-
-# fast build rule for target.
-_era_gazebo_generate_messages_check_deps_SceneBBox/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/build
-.PHONY : _era_gazebo_generate_messages_check_deps_SceneBBox/fast
-
-# Convenience name for target.
-era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/rule
-.PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/rule
-
-# Convenience name for target.
-era_gazebo_generate_messages: era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/rule
-
-.PHONY : era_gazebo_generate_messages
-
-# fast build rule for target.
-era_gazebo_generate_messages/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/build
-.PHONY : era_gazebo_generate_messages/fast
-
-# Convenience name for target.
 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAMsg.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAMsg.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAMsg.dir/rule
 .PHONY : era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAMsg.dir/rule
 
 # Convenience name for target.
@@ -314,12 +239,87 @@ _era_gazebo_generate_messages_check_deps_ERAMsg: era_gazebo/CMakeFiles/_era_gaze
 
 # fast build rule for target.
 _era_gazebo_generate_messages_check_deps_ERAMsg/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAMsg.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAMsg.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAMsg.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAMsg.dir/build
 .PHONY : _era_gazebo_generate_messages_check_deps_ERAMsg/fast
 
 # Convenience name for target.
+era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/rule:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/rule
+.PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/rule
+
+# Convenience name for target.
+era_gazebo_generate_messages: era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/rule
+
+.PHONY : era_gazebo_generate_messages
+
+# fast build rule for target.
+era_gazebo_generate_messages/fast:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages.dir/build
+.PHONY : era_gazebo_generate_messages/fast
+
+# Convenience name for target.
+era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/rule:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/rule
+.PHONY : era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/rule
+
+# Convenience name for target.
+_era_gazebo_generate_messages_check_deps_DetectionBoxList: era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/rule
+
+.PHONY : _era_gazebo_generate_messages_check_deps_DetectionBoxList
+
+# fast build rule for target.
+_era_gazebo_generate_messages_check_deps_DetectionBoxList/fast:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBoxList.dir/build
+.PHONY : _era_gazebo_generate_messages_check_deps_DetectionBoxList/fast
+
+# Convenience name for target.
+era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/rule:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/rule
+.PHONY : era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/rule
+
+# Convenience name for target.
+_era_gazebo_generate_messages_check_deps_SceneBBox: era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/rule
+
+.PHONY : _era_gazebo_generate_messages_check_deps_SceneBBox
+
+# fast build rule for target.
+_era_gazebo_generate_messages_check_deps_SceneBBox/fast:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_SceneBBox.dir/build
+.PHONY : _era_gazebo_generate_messages_check_deps_SceneBBox/fast
+
+# Convenience name for target.
+era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/rule:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/rule
+.PHONY : era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/rule
+
+# Convenience name for target.
+_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid: era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/rule
+
+.PHONY : _era_gazebo_generate_messages_check_deps_ERAOccupancyGrid
+
+# fast build rule for target.
+_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid/fast:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_ERAOccupancyGrid.dir/build
+.PHONY : _era_gazebo_generate_messages_check_deps_ERAOccupancyGrid/fast
+
+# Convenience name for target.
+era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/rule:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/rule
+.PHONY : era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/rule
+
+# Convenience name for target.
+_era_gazebo_generate_messages_check_deps_DetectionBox: era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/rule
+
+.PHONY : _era_gazebo_generate_messages_check_deps_DetectionBox
+
+# fast build rule for target.
+_era_gazebo_generate_messages_check_deps_DetectionBox/fast:
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/build.make era_gazebo/CMakeFiles/_era_gazebo_generate_messages_check_deps_DetectionBox.dir/build
+.PHONY : _era_gazebo_generate_messages_check_deps_DetectionBox/fast
+
+# Convenience name for target.
 era_gazebo/CMakeFiles/fake_laser.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/fake_laser.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/fake_laser.dir/rule
 .PHONY : era_gazebo/CMakeFiles/fake_laser.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ fake_laser: era_gazebo/CMakeFiles/fake_laser.dir/rule
 
 # fast build rule for target.
 fake_laser/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/fake_laser.dir/build.make era_gazebo/CMakeFiles/fake_laser.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/fake_laser.dir/build.make era_gazebo/CMakeFiles/fake_laser.dir/build
 .PHONY : fake_laser/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_generate_messages_cpp.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_cpp.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_cpp.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ era_gazebo_generate_messages_cpp: era_gazebo/CMakeFiles/era_gazebo_generate_mess
 
 # fast build rule for target.
 era_gazebo_generate_messages_cpp/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_cpp.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_cpp.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_cpp.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_cpp.dir/build
 .PHONY : era_gazebo_generate_messages_cpp/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ era_gazebo_generate_messages_eus: era_gazebo/CMakeFiles/era_gazebo_generate_mess
 
 # fast build rule for target.
 era_gazebo_generate_messages_eus/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/build
 .PHONY : era_gazebo_generate_messages_eus/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_geneus.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_geneus.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_geneus.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_geneus.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ era_gazebo_geneus: era_gazebo/CMakeFiles/era_gazebo_geneus.dir/rule
 
 # fast build rule for target.
 era_gazebo_geneus/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_geneus.dir/build.make era_gazebo/CMakeFiles/era_gazebo_geneus.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_geneus.dir/build.make era_gazebo/CMakeFiles/era_gazebo_geneus.dir/build
 .PHONY : era_gazebo_geneus/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/map_fuser.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/map_fuser.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/map_fuser.dir/rule
 .PHONY : era_gazebo/CMakeFiles/map_fuser.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ map_fuser: era_gazebo/CMakeFiles/map_fuser.dir/rule
 
 # fast build rule for target.
 map_fuser/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/build
 .PHONY : map_fuser/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_generate_messages_lisp.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_lisp.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_lisp.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ era_gazebo_generate_messages_lisp: era_gazebo/CMakeFiles/era_gazebo_generate_mes
 
 # fast build rule for target.
 era_gazebo_generate_messages_lisp/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_lisp.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_lisp.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_lisp.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_lisp.dir/build
 .PHONY : era_gazebo_generate_messages_lisp/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_gencpp.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_gencpp.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_gencpp.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_gencpp.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ era_gazebo_gencpp: era_gazebo/CMakeFiles/era_gazebo_gencpp.dir/rule
 
 # fast build rule for target.
 era_gazebo_gencpp/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_gencpp.dir/build.make era_gazebo/CMakeFiles/era_gazebo_gencpp.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_gencpp.dir/build.make era_gazebo/CMakeFiles/era_gazebo_gencpp.dir/build
 .PHONY : era_gazebo_gencpp/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_genlisp.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_genlisp.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_genlisp.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_genlisp.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ era_gazebo_genlisp: era_gazebo/CMakeFiles/era_gazebo_genlisp.dir/rule
 
 # fast build rule for target.
 era_gazebo_genlisp/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_genlisp.dir/build.make era_gazebo/CMakeFiles/era_gazebo_genlisp.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_genlisp.dir/build.make era_gazebo/CMakeFiles/era_gazebo_genlisp.dir/build
 .PHONY : era_gazebo_genlisp/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_genpy.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_genpy.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_genpy.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_genpy.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ era_gazebo_genpy: era_gazebo/CMakeFiles/era_gazebo_genpy.dir/rule
 
 # fast build rule for target.
 era_gazebo_genpy/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_genpy.dir/build.make era_gazebo/CMakeFiles/era_gazebo_genpy.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_genpy.dir/build.make era_gazebo/CMakeFiles/era_gazebo_genpy.dir/build
 .PHONY : era_gazebo_genpy/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_generate_messages_nodejs.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_nodejs.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_nodejs.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -464,12 +464,12 @@ era_gazebo_generate_messages_nodejs: era_gazebo/CMakeFiles/era_gazebo_generate_m
 
 # fast build rule for target.
 era_gazebo_generate_messages_nodejs/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_nodejs.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_nodejs.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_nodejs.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_nodejs.dir/build
 .PHONY : era_gazebo_generate_messages_nodejs/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_gennodejs.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_gennodejs.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_gennodejs.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -479,12 +479,12 @@ era_gazebo_gennodejs: era_gazebo/CMakeFiles/era_gazebo_gennodejs.dir/rule
 
 # fast build rule for target.
 era_gazebo_gennodejs/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_gennodejs.dir/build.make era_gazebo/CMakeFiles/era_gazebo_gennodejs.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_gennodejs.dir/build.make era_gazebo/CMakeFiles/era_gazebo_gennodejs.dir/build
 .PHONY : era_gazebo_gennodejs/fast
 
 # Convenience name for target.
 era_gazebo/CMakeFiles/era_gazebo_generate_messages_py.dir/rule:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_py.dir/rule
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 era_gazebo/CMakeFiles/era_gazebo_generate_messages_py.dir/rule
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -494,7 +494,7 @@ era_gazebo_generate_messages_py: era_gazebo/CMakeFiles/era_gazebo_generate_messa
 
 # fast build rule for target.
 era_gazebo_generate_messages_py/fast:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_py.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_py.dir/build
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/era_gazebo_generate_messages_py.dir/build.make era_gazebo/CMakeFiles/era_gazebo_generate_messages_py.dir/build
 .PHONY : era_gazebo_generate_messages_py/fast
 
 src/ERAmsgBuilder.o: src/ERAmsgBuilder.cpp.o
@@ -503,7 +503,7 @@ src/ERAmsgBuilder.o: src/ERAmsgBuilder.cpp.o
 
 # target to build an object file
 src/ERAmsgBuilder.cpp.o:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/src/ERAmsgBuilder.cpp.o
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/src/ERAmsgBuilder.cpp.o
 .PHONY : src/ERAmsgBuilder.cpp.o
 
 src/ERAmsgBuilder.i: src/ERAmsgBuilder.cpp.i
@@ -512,7 +512,7 @@ src/ERAmsgBuilder.i: src/ERAmsgBuilder.cpp.i
 
 # target to preprocess a source file
 src/ERAmsgBuilder.cpp.i:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/src/ERAmsgBuilder.cpp.i
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/src/ERAmsgBuilder.cpp.i
 .PHONY : src/ERAmsgBuilder.cpp.i
 
 src/ERAmsgBuilder.s: src/ERAmsgBuilder.cpp.s
@@ -521,7 +521,7 @@ src/ERAmsgBuilder.s: src/ERAmsgBuilder.cpp.s
 
 # target to generate assembly for a file
 src/ERAmsgBuilder.cpp.s:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/src/ERAmsgBuilder.cpp.s
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgBuilder_node.dir/src/ERAmsgBuilder.cpp.s
 .PHONY : src/ERAmsgBuilder.cpp.s
 
 src/ERAmsgInterpreter.o: src/ERAmsgInterpreter.cpp.o
@@ -530,7 +530,7 @@ src/ERAmsgInterpreter.o: src/ERAmsgInterpreter.cpp.o
 
 # target to build an object file
 src/ERAmsgInterpreter.cpp.o:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/src/ERAmsgInterpreter.cpp.o
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/src/ERAmsgInterpreter.cpp.o
 .PHONY : src/ERAmsgInterpreter.cpp.o
 
 src/ERAmsgInterpreter.i: src/ERAmsgInterpreter.cpp.i
@@ -539,7 +539,7 @@ src/ERAmsgInterpreter.i: src/ERAmsgInterpreter.cpp.i
 
 # target to preprocess a source file
 src/ERAmsgInterpreter.cpp.i:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/src/ERAmsgInterpreter.cpp.i
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/src/ERAmsgInterpreter.cpp.i
 .PHONY : src/ERAmsgInterpreter.cpp.i
 
 src/ERAmsgInterpreter.s: src/ERAmsgInterpreter.cpp.s
@@ -548,7 +548,7 @@ src/ERAmsgInterpreter.s: src/ERAmsgInterpreter.cpp.s
 
 # target to generate assembly for a file
 src/ERAmsgInterpreter.cpp.s:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/src/ERAmsgInterpreter.cpp.s
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/build.make era_gazebo/CMakeFiles/ERAmsgInterpreter_node.dir/src/ERAmsgInterpreter.cpp.s
 .PHONY : src/ERAmsgInterpreter.cpp.s
 
 src/combine_grids.o: src/combine_grids.cpp.o
@@ -557,7 +557,7 @@ src/combine_grids.o: src/combine_grids.cpp.o
 
 # target to build an object file
 src/combine_grids.cpp.o:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/combine_grids.cpp.o
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/combine_grids.cpp.o
 .PHONY : src/combine_grids.cpp.o
 
 src/combine_grids.i: src/combine_grids.cpp.i
@@ -566,7 +566,7 @@ src/combine_grids.i: src/combine_grids.cpp.i
 
 # target to preprocess a source file
 src/combine_grids.cpp.i:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/combine_grids.cpp.i
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/combine_grids.cpp.i
 .PHONY : src/combine_grids.cpp.i
 
 src/combine_grids.s: src/combine_grids.cpp.s
@@ -575,7 +575,7 @@ src/combine_grids.s: src/combine_grids.cpp.s
 
 # target to generate assembly for a file
 src/combine_grids.cpp.s:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/combine_grids.cpp.s
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/combine_grids.cpp.s
 .PHONY : src/combine_grids.cpp.s
 
 src/coordinate_conversions.o: src/coordinate_conversions.cpp.o
@@ -584,7 +584,7 @@ src/coordinate_conversions.o: src/coordinate_conversions.cpp.o
 
 # target to build an object file
 src/coordinate_conversions.cpp.o:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/coordinate_conversions.cpp.o
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/coordinate_conversions.cpp.o
 .PHONY : src/coordinate_conversions.cpp.o
 
 src/coordinate_conversions.i: src/coordinate_conversions.cpp.i
@@ -593,7 +593,7 @@ src/coordinate_conversions.i: src/coordinate_conversions.cpp.i
 
 # target to preprocess a source file
 src/coordinate_conversions.cpp.i:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/coordinate_conversions.cpp.i
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/coordinate_conversions.cpp.i
 .PHONY : src/coordinate_conversions.cpp.i
 
 src/coordinate_conversions.s: src/coordinate_conversions.cpp.s
@@ -602,7 +602,7 @@ src/coordinate_conversions.s: src/coordinate_conversions.cpp.s
 
 # target to generate assembly for a file
 src/coordinate_conversions.cpp.s:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/coordinate_conversions.cpp.s
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/coordinate_conversions.cpp.s
 .PHONY : src/coordinate_conversions.cpp.s
 
 src/fake_laser.o: src/fake_laser.cpp.o
@@ -611,7 +611,7 @@ src/fake_laser.o: src/fake_laser.cpp.o
 
 # target to build an object file
 src/fake_laser.cpp.o:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/fake_laser.dir/build.make era_gazebo/CMakeFiles/fake_laser.dir/src/fake_laser.cpp.o
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/fake_laser.dir/build.make era_gazebo/CMakeFiles/fake_laser.dir/src/fake_laser.cpp.o
 .PHONY : src/fake_laser.cpp.o
 
 src/fake_laser.i: src/fake_laser.cpp.i
@@ -620,7 +620,7 @@ src/fake_laser.i: src/fake_laser.cpp.i
 
 # target to preprocess a source file
 src/fake_laser.cpp.i:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/fake_laser.dir/build.make era_gazebo/CMakeFiles/fake_laser.dir/src/fake_laser.cpp.i
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/fake_laser.dir/build.make era_gazebo/CMakeFiles/fake_laser.dir/src/fake_laser.cpp.i
 .PHONY : src/fake_laser.cpp.i
 
 src/fake_laser.s: src/fake_laser.cpp.s
@@ -629,7 +629,7 @@ src/fake_laser.s: src/fake_laser.cpp.s
 
 # target to generate assembly for a file
 src/fake_laser.cpp.s:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/fake_laser.dir/build.make era_gazebo/CMakeFiles/fake_laser.dir/src/fake_laser.cpp.s
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/fake_laser.dir/build.make era_gazebo/CMakeFiles/fake_laser.dir/src/fake_laser.cpp.s
 .PHONY : src/fake_laser.cpp.s
 
 src/map_fuser.o: src/map_fuser.cpp.o
@@ -638,7 +638,7 @@ src/map_fuser.o: src/map_fuser.cpp.o
 
 # target to build an object file
 src/map_fuser.cpp.o:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/map_fuser.cpp.o
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/map_fuser.cpp.o
 .PHONY : src/map_fuser.cpp.o
 
 src/map_fuser.i: src/map_fuser.cpp.i
@@ -647,7 +647,7 @@ src/map_fuser.i: src/map_fuser.cpp.i
 
 # target to preprocess a source file
 src/map_fuser.cpp.i:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/map_fuser.cpp.i
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/map_fuser.cpp.i
 .PHONY : src/map_fuser.cpp.i
 
 src/map_fuser.s: src/map_fuser.cpp.s
@@ -656,7 +656,7 @@ src/map_fuser.s: src/map_fuser.cpp.s
 
 # target to generate assembly for a file
 src/map_fuser.cpp.s:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/map_fuser.cpp.s
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/map_fuser.dir/build.make era_gazebo/CMakeFiles/map_fuser.dir/src/map_fuser.cpp.s
 .PHONY : src/map_fuser.cpp.s
 
 src/message_generator.o: src/message_generator.cpp.o
@@ -665,7 +665,7 @@ src/message_generator.o: src/message_generator.cpp.o
 
 # target to build an object file
 src/message_generator.cpp.o:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/message_generator.dir/build.make era_gazebo/CMakeFiles/message_generator.dir/src/message_generator.cpp.o
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/message_generator.dir/build.make era_gazebo/CMakeFiles/message_generator.dir/src/message_generator.cpp.o
 .PHONY : src/message_generator.cpp.o
 
 src/message_generator.i: src/message_generator.cpp.i
@@ -674,7 +674,7 @@ src/message_generator.i: src/message_generator.cpp.i
 
 # target to preprocess a source file
 src/message_generator.cpp.i:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/message_generator.dir/build.make era_gazebo/CMakeFiles/message_generator.dir/src/message_generator.cpp.i
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/message_generator.dir/build.make era_gazebo/CMakeFiles/message_generator.dir/src/message_generator.cpp.i
 .PHONY : src/message_generator.cpp.i
 
 src/message_generator.s: src/message_generator.cpp.s
@@ -683,7 +683,7 @@ src/message_generator.s: src/message_generator.cpp.s
 
 # target to generate assembly for a file
 src/message_generator.cpp.s:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/message_generator.dir/build.make era_gazebo/CMakeFiles/message_generator.dir/src/message_generator.cpp.s
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/message_generator.dir/build.make era_gazebo/CMakeFiles/message_generator.dir/src/message_generator.cpp.s
 .PHONY : src/message_generator.cpp.s
 
 src/occupancy_grid_labeler.o: src/occupancy_grid_labeler.cpp.o
@@ -692,7 +692,7 @@ src/occupancy_grid_labeler.o: src/occupancy_grid_labeler.cpp.o
 
 # target to build an object file
 src/occupancy_grid_labeler.cpp.o:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/og_labeler.dir/build.make era_gazebo/CMakeFiles/og_labeler.dir/src/occupancy_grid_labeler.cpp.o
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/og_labeler.dir/build.make era_gazebo/CMakeFiles/og_labeler.dir/src/occupancy_grid_labeler.cpp.o
 .PHONY : src/occupancy_grid_labeler.cpp.o
 
 src/occupancy_grid_labeler.i: src/occupancy_grid_labeler.cpp.i
@@ -701,7 +701,7 @@ src/occupancy_grid_labeler.i: src/occupancy_grid_labeler.cpp.i
 
 # target to preprocess a source file
 src/occupancy_grid_labeler.cpp.i:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/og_labeler.dir/build.make era_gazebo/CMakeFiles/og_labeler.dir/src/occupancy_grid_labeler.cpp.i
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/og_labeler.dir/build.make era_gazebo/CMakeFiles/og_labeler.dir/src/occupancy_grid_labeler.cpp.i
 .PHONY : src/occupancy_grid_labeler.cpp.i
 
 src/occupancy_grid_labeler.s: src/occupancy_grid_labeler.cpp.s
@@ -710,7 +710,7 @@ src/occupancy_grid_labeler.s: src/occupancy_grid_labeler.cpp.s
 
 # target to generate assembly for a file
 src/occupancy_grid_labeler.cpp.s:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/og_labeler.dir/build.make era_gazebo/CMakeFiles/og_labeler.dir/src/occupancy_grid_labeler.cpp.s
+	cd /home/hackfest03/catkin_ws/build && $(MAKE) -f era_gazebo/CMakeFiles/og_labeler.dir/build.make era_gazebo/CMakeFiles/og_labeler.dir/src/occupancy_grid_labeler.cpp.s
 .PHONY : src/occupancy_grid_labeler.cpp.s
 
 # Help Target
@@ -729,12 +729,12 @@ help:
 	@echo "... ERAmsgBuilder_node"
 	@echo "... install/strip"
 	@echo "... message_generator"
+	@echo "... _era_gazebo_generate_messages_check_deps_ERAMsg"
+	@echo "... era_gazebo_generate_messages"
 	@echo "... _era_gazebo_generate_messages_check_deps_DetectionBoxList"
+	@echo "... _era_gazebo_generate_messages_check_deps_SceneBBox"
 	@echo "... _era_gazebo_generate_messages_check_deps_ERAOccupancyGrid"
 	@echo "... _era_gazebo_generate_messages_check_deps_DetectionBox"
-	@echo "... _era_gazebo_generate_messages_check_deps_SceneBBox"
-	@echo "... era_gazebo_generate_messages"
-	@echo "... _era_gazebo_generate_messages_check_deps_ERAMsg"
 	@echo "... fake_laser"
 	@echo "... era_gazebo_generate_messages_cpp"
 	@echo "... install/local"
@@ -783,6 +783,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hackfest03/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

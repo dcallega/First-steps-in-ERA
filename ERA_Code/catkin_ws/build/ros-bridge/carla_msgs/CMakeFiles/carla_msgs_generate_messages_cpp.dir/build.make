@@ -43,182 +43,182 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hackfest03/ERA/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hackfest03/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hackfest03/ERA/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hackfest03/catkin_ws/build
 
 # Utility rule file for carla_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/progress.make
 
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorList.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaControl.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaStatus.h
-ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorList.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaStatus.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaControl.h
+ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h
 
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaWalkerControl.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from carla_msgs/CarlaWalkerControl.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaWalkerControl.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaWorldInfo.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from carla_msgs/CarlaWorldInfo.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaWorldInfo.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorList.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorList.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorList.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorList.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorInfo.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorList.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from carla_msgs/CarlaActorList.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorList.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorList.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorList.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorList.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorList.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorInfo.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorList.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from carla_msgs/CarlaActorList.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorList.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatus.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from carla_msgs/CarlaTrafficLightStatus.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatus.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaBoundingBox.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from carla_msgs/CarlaBoundingBox.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaBoundingBox.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaBoundingBox.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from carla_msgs/CarlaBoundingBox.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaBoundingBox.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfo.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaBoundingBox.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from carla_msgs/CarlaTrafficLightInfo.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfo.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfo.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfoWheel.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from carla_msgs/CarlaEgoVehicleInfo.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfo.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatusList.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatus.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from carla_msgs/CarlaTrafficLightStatusList.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatusList.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorInfo.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from carla_msgs/CarlaActorInfo.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorInfo.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaStatus.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaStatus.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from carla_msgs/CarlaStatus.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaStatus.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatusList.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatus.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from carla_msgs/CarlaTrafficLightStatusList.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatusList.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleControl.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from carla_msgs/CarlaEgoVehicleControl.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleControl.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaCollisionEvent.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from carla_msgs/CarlaCollisionEvent.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaCollisionEvent.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfo.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfoWheel.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from carla_msgs/CarlaEgoVehicleInfo.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfo.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleStatus.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Accel.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleControl.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from carla_msgs/CarlaEgoVehicleStatus.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleStatus.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfoWheel.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from carla_msgs/CarlaEgoVehicleInfoWheel.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfoWheel.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaLaneInvasionEvent.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from carla_msgs/CarlaLaneInvasionEvent.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaLaneInvasionEvent.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaWalkerControl.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from carla_msgs/CarlaWalkerControl.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaWalkerControl.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleControl.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from carla_msgs/CarlaEgoVehicleControl.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleControl.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaLaneInvasionEvent.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from carla_msgs/CarlaLaneInvasionEvent.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaLaneInvasionEvent.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfoList.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfo.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaBoundingBox.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from carla_msgs/CarlaTrafficLightInfoList.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfoList.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatus.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from carla_msgs/CarlaTrafficLightStatus.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightStatus.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaWorldInfo.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from carla_msgs/CarlaWorldInfo.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaWorldInfo.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleStatus.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleControl.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Accel.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from carla_msgs/CarlaEgoVehicleStatus.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleStatus.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfo.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaBoundingBox.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from carla_msgs/CarlaTrafficLightInfo.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfo.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaCollisionEvent.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from carla_msgs/CarlaCollisionEvent.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaCollisionEvent.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaControl.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaControl.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from carla_msgs/CarlaControl.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaControl.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfoList.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfo.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaBoundingBox.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from carla_msgs/CarlaTrafficLightInfoList.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaTrafficLightInfoList.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaStatus.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaStatus.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from carla_msgs/CarlaStatus.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaStatus.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaControl.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaControl.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from carla_msgs/CarlaControl.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaControl.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfoWheel.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from carla_msgs/CarlaEgoVehicleInfoWheel.msg"
-	cd /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/ERA/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaEgoVehicleInfoWheel.msg -Icarla_msgs:/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h: /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorInfo.msg
+/home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from carla_msgs/CarlaActorInfo.msg"
+	cd /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs && /home/hackfest03/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg/CarlaActorInfo.msg -Icarla_msgs:/home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p carla_msgs -o /home/hackfest03/catkin_ws/devel/include/carla_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
 carla_msgs_generate_messages_cpp: ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorList.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaControl.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaStatus.h
-carla_msgs_generate_messages_cpp: /home/hackfest03/ERA/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWorldInfo.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorList.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaBoundingBox.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfo.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatusList.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaStatus.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleControl.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfo.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleInfoWheel.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaWalkerControl.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaLaneInvasionEvent.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightStatus.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaEgoVehicleStatus.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaCollisionEvent.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaTrafficLightInfoList.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaControl.h
+carla_msgs_generate_messages_cpp: /home/hackfest03/catkin_ws/devel/include/carla_msgs/CarlaActorInfo.h
 carla_msgs_generate_messages_cpp: ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : carla_msgs_generate_messages_cpp
@@ -229,10 +229,10 @@ ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/build: car
 .PHONY : ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/build
 
 ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/clean:
-	cd /home/hackfest03/ERA/catkin_ws/build/ros-bridge/carla_msgs && $(CMAKE_COMMAND) -P CMakeFiles/carla_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/hackfest03/catkin_ws/build/ros-bridge/carla_msgs && $(CMAKE_COMMAND) -P CMakeFiles/carla_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/clean
 
 ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/depend:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hackfest03/ERA/catkin_ws/src /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_msgs /home/hackfest03/ERA/catkin_ws/build /home/hackfest03/ERA/catkin_ws/build/ros-bridge/carla_msgs /home/hackfest03/ERA/catkin_ws/build/ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hackfest03/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hackfest03/catkin_ws/src /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs /home/hackfest03/catkin_ws/build /home/hackfest03/catkin_ws/build/ros-bridge/carla_msgs /home/hackfest03/catkin_ws/build/ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros-bridge/carla_msgs/CMakeFiles/carla_msgs_generate_messages_cpp.dir/depend
 

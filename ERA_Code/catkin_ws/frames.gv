@@ -1,0 +1,16 @@
+digraph G {
+"map" -> "uci_vehicle/lidar/lidar1"[label="Broadcaster: /carla_ros_bridge\nAverage rate: 20.435 Hz\nMost recent transform: 4592.328 ( 0.050 sec old)\nBuffer length: 2.300 sec\n"];
+"map" -> "uci_vehicle/imu"[label="Broadcaster: /carla_ros_bridge\nAverage rate: 20.435 Hz\nMost recent transform: 4592.328 ( 0.050 sec old)\nBuffer length: 2.300 sec\n"];
+"map" -> "uci_vehicle/camera/rgb/left"[label="Broadcaster: /carla_ros_bridge\nAverage rate: 20.435 Hz\nMost recent transform: 4592.328 ( 0.050 sec old)\nBuffer length: 2.300 sec\n"];
+"map" -> "uci_vehicle/camera/rgb/view"[label="Broadcaster: /carla_ros_bridge\nAverage rate: 20.435 Hz\nMost recent transform: 4592.328 ( 0.050 sec old)\nBuffer length: 2.300 sec\n"];
+"map" -> "uci_vehicle/camera/rgb/back"[label="Broadcaster: /carla_ros_bridge\nAverage rate: 20.435 Hz\nMost recent transform: 4592.328 ( 0.050 sec old)\nBuffer length: 2.300 sec\n"];
+"map" -> "uci_vehicle/camera/rgb/front"[label="Broadcaster: /carla_ros_bridge\nAverage rate: 20.435 Hz\nMost recent transform: 4592.328 ( 0.050 sec old)\nBuffer length: 2.300 sec\n"];
+"map" -> "uci_vehicle/radar/front"[label="Broadcaster: /carla_ros_bridge\nAverage rate: 16.889 Hz\nMost recent transform: 4592.328 ( 0.050 sec old)\nBuffer length: 2.250 sec\n"];
+"map" -> "uci_vehicle/gnss/gnss1"[label="Broadcaster: /carla_ros_bridge\nAverage rate: 18.667 Hz\nMost recent transform: 4592.328 ( 0.050 sec old)\nBuffer length: 2.250 sec\n"];
+"map" -> "uci_vehicle"[label="Broadcaster: /carla_ros_bridge\nAverage rate: 40.870 Hz\nMost recent transform: 4592.378 ( 0.000 sec old)\nBuffer length: 2.300 sec\n"];
+"map" -> "uci_vehicle/odom"[label="Broadcaster: /transform_publisher\nAverage rate: 10.435 Hz\nMost recent transform: 4592.478 ( -0.100 sec old)\nBuffer length: 2.300 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 4592.378"[ shape=plaintext ] ;
+ }->"map";
+}

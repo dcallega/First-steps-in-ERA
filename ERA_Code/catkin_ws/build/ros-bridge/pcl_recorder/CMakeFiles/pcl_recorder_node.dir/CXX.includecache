@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hackfest03/ERA/catkin_ws/src/ros-bridge/pcl_recorder/include/PclRecorder.h
+/home/hackfest03/catkin_ws/src/ros-bridge/pcl_recorder/include/PclRecorder.h
 ros/ros.h
 -
 pcl_conversions/pcl_conversions.h
@@ -18,9 +18,9 @@ tf2_ros/transform_listener.h
 tf2_eigen/tf2_eigen.h
 -
 
-/home/hackfest03/ERA/catkin_ws/src/ros-bridge/pcl_recorder/src/PclRecorder.cpp
+/home/hackfest03/catkin_ws/src/ros-bridge/pcl_recorder/src/PclRecorder.cpp
 PclRecorder.h
-/home/hackfest03/ERA/catkin_ws/src/ros-bridge/pcl_recorder/src/PclRecorder.h
+/home/hackfest03/catkin_ws/src/ros-bridge/pcl_recorder/src/PclRecorder.h
 string
 -
 pcl/io/pcd_io.h
@@ -30,11 +30,11 @@ pcl_ros/transforms.h
 sstream
 -
 
-/home/hackfest03/ERA/catkin_ws/src/ros-bridge/pcl_recorder/src/main.cpp
+/home/hackfest03/catkin_ws/src/ros-bridge/pcl_recorder/src/main.cpp
 ros/ros.h
 -
 PclRecorder.h
-/home/hackfest03/ERA/catkin_ws/src/ros-bridge/pcl_recorder/src/PclRecorder.h
+/home/hackfest03/catkin_ws/src/ros-bridge/pcl_recorder/src/PclRecorder.h
 
 /opt/ros/melodic/include/boost_161_condition_variable.h
 boost/thread/detail/platform.hpp

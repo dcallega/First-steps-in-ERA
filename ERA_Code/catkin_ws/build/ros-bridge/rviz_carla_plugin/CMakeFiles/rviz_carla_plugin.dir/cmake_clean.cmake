@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rviz_carla_plugin.dir/src/carla_control_panel.cpp.o"
   "CMakeFiles/rviz_carla_plugin.dir/qrc_rviz_carla_plugin.cpp.o"
   "CMakeFiles/rviz_carla_plugin.dir/rviz_carla_plugin_autogen/mocs_compilation.cpp.o"
-  "/home/hackfest03/ERA/catkin_ws/devel/lib/librviz_carla_plugin.pdb"
-  "/home/hackfest03/ERA/catkin_ws/devel/lib/librviz_carla_plugin.so"
+  "/home/hackfest03/catkin_ws/devel/lib/librviz_carla_plugin.pdb"
+  "/home/hackfest03/catkin_ws/devel/lib/librviz_carla_plugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,4 @@
-prefix=/home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/devel
+prefix=/home/hackfest03/catkin_ws/devel
 
 Name: carla_uci_vehicle
 Description: Description of carla_uci_vehicle

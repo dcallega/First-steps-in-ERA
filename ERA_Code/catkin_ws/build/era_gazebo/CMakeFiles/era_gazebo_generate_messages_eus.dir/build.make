@@ -43,76 +43,76 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hackfest03/ERA/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hackfest03/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hackfest03/ERA/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hackfest03/catkin_ws/build
 
 # Utility rule file for era_gazebo_generate_messages_eus.
 
 # Include the progress variables for this target.
 include era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/progress.make
 
-era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l
-era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l
-era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l
-era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l
-era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l
-era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/manifest.l
+era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l
+era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l
+era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l
+era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l
+era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l
+era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/manifest.l
 
 
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/ERAMsg.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from era_gazebo/ERAMsg.msg"
-	cd /home/hackfest03/ERA/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/ERAMsg.msg -Iera_gazebo:/home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l: /home/hackfest03/catkin_ws/src/era_gazebo/msg/DetectionBox.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from era_gazebo/DetectionBox.msg"
+	cd /home/hackfest03/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/catkin_ws/src/era_gazebo/msg/DetectionBox.msg -Iera_gazebo:/home/hackfest03/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg
 
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l: /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/DetectionBox.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from era_gazebo/DetectionBox.msg"
-	cd /home/hackfest03/ERA/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/DetectionBox.msg -Iera_gazebo:/home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l: /home/hackfest03/catkin_ws/src/era_gazebo/msg/DetectionBoxList.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l: /home/hackfest03/catkin_ws/src/era_gazebo/msg/DetectionBox.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from era_gazebo/DetectionBoxList.msg"
+	cd /home/hackfest03/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/catkin_ws/src/era_gazebo/msg/DetectionBoxList.msg -Iera_gazebo:/home/hackfest03/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg
 
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/ERAOccupancyGrid.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from era_gazebo/ERAOccupancyGrid.msg"
-	cd /home/hackfest03/ERA/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/ERAOccupancyGrid.msg -Iera_gazebo:/home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /home/hackfest03/catkin_ws/src/era_gazebo/msg/ERAMsg.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from era_gazebo/ERAMsg.msg"
+	cd /home/hackfest03/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/catkin_ws/src/era_gazebo/msg/ERAMsg.msg -Iera_gazebo:/home/hackfest03/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg
 
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l: /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/DetectionBoxList.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l: /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/DetectionBox.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from era_gazebo/DetectionBoxList.msg"
-	cd /home/hackfest03/ERA/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/DetectionBoxList.msg -Iera_gazebo:/home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /home/hackfest03/catkin_ws/src/era_gazebo/msg/ERAOccupancyGrid.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from era_gazebo/ERAOccupancyGrid.msg"
+	cd /home/hackfest03/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/catkin_ws/src/era_gazebo/msg/ERAOccupancyGrid.msg -Iera_gazebo:/home/hackfest03/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg
 
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l: /home/hackfest03/ERA/catkin_ws/src/era_gazebo/srv/SceneBBox.srv
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l: /home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg/DetectionBox.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from era_gazebo/SceneBBox.srv"
-	cd /home/hackfest03/ERA/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/ERA/catkin_ws/src/era_gazebo/srv/SceneBBox.srv -Iera_gazebo:/home/hackfest03/ERA/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/srv
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l: /home/hackfest03/catkin_ws/src/era_gazebo/srv/SceneBBox.srv
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l: /home/hackfest03/catkin_ws/src/era_gazebo/msg/DetectionBox.msg
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from era_gazebo/SceneBBox.srv"
+	cd /home/hackfest03/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hackfest03/catkin_ws/src/era_gazebo/srv/SceneBBox.srv -Iera_gazebo:/home/hackfest03/catkin_ws/src/era_gazebo/msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p era_gazebo -o /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/srv
 
-/home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/ERA/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp manifest code for era_gazebo"
-	cd /home/hackfest03/ERA/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo era_gazebo nav_msgs geometry_msgs std_msgs
+/home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hackfest03/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp manifest code for era_gazebo"
+	cd /home/hackfest03/catkin_ws/build/era_gazebo && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo era_gazebo nav_msgs geometry_msgs std_msgs
 
 era_gazebo_generate_messages_eus: era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus
-era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l
-era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l
-era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l
-era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l
-era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l
-era_gazebo_generate_messages_eus: /home/hackfest03/ERA/catkin_ws/devel/share/roseus/ros/era_gazebo/manifest.l
+era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBox.l
+era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/DetectionBoxList.l
+era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAMsg.l
+era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/msg/ERAOccupancyGrid.l
+era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/srv/SceneBBox.l
+era_gazebo_generate_messages_eus: /home/hackfest03/catkin_ws/devel/share/roseus/ros/era_gazebo/manifest.l
 era_gazebo_generate_messages_eus: era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/build.make
 
 .PHONY : era_gazebo_generate_messages_eus
@@ -123,10 +123,10 @@ era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/build: era_gazebo_gen
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/build
 
 era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/clean:
-	cd /home/hackfest03/ERA/catkin_ws/build/era_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/era_gazebo_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/hackfest03/catkin_ws/build/era_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/era_gazebo_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/clean
 
 era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/depend:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hackfest03/ERA/catkin_ws/src /home/hackfest03/ERA/catkin_ws/src/era_gazebo /home/hackfest03/ERA/catkin_ws/build /home/hackfest03/ERA/catkin_ws/build/era_gazebo /home/hackfest03/ERA/catkin_ws/build/era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hackfest03/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hackfest03/catkin_ws/src /home/hackfest03/catkin_ws/src/era_gazebo /home/hackfest03/catkin_ws/build /home/hackfest03/catkin_ws/build/era_gazebo /home/hackfest03/catkin_ws/build/era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : era_gazebo/CMakeFiles/era_gazebo_generate_messages_eus.dir/depend
 

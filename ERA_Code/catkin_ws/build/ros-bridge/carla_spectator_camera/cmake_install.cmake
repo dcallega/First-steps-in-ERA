@@ -1,8 +1,8 @@
-# Install script for directory: /home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_spectator_camera
+# Install script for directory: /home/hackfest03/catkin_ws/src/ros-bridge/carla_spectator_camera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hackfest03/ERA/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hackfest03/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,29 +38,29 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/hackfest03/ERA/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/safe_execute_install.cmake")
+  include("/home/hackfest03/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hackfest03/ERA/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/installspace/carla_spectator_camera.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hackfest03/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/installspace/carla_spectator_camera.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_spectator_camera/cmake" TYPE FILE FILES
-    "/home/hackfest03/ERA/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/installspace/carla_spectator_cameraConfig.cmake"
-    "/home/hackfest03/ERA/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/installspace/carla_spectator_cameraConfig-version.cmake"
+    "/home/hackfest03/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/installspace/carla_spectator_cameraConfig.cmake"
+    "/home/hackfest03/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/installspace/carla_spectator_cameraConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_spectator_camera" TYPE FILE FILES "/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_spectator_camera/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_spectator_camera" TYPE FILE FILES "/home/hackfest03/catkin_ws/src/ros-bridge/carla_spectator_camera/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_spectator_camera" TYPE PROGRAM FILES "/home/hackfest03/ERA/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/installspace/carla_spectator_camera.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_spectator_camera" TYPE PROGRAM FILES "/home/hackfest03/catkin_ws/build/ros-bridge/carla_spectator_camera/catkin_generated/installspace/carla_spectator_camera.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_spectator_camera/launch" TYPE DIRECTORY FILES "/home/hackfest03/ERA/catkin_ws/src/ros-bridge/carla_spectator_camera/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_spectator_camera/launch" TYPE DIRECTORY FILES "/home/hackfest03/catkin_ws/src/ros-bridge/carla_spectator_camera/launch/")
 endif()
 

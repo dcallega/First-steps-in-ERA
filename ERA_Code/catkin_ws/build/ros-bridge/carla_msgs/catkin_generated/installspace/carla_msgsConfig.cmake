@@ -67,14 +67,14 @@ set(carla_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(carla_msgs_SOURCE_PREFIX /home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/src/ros-bridge/carla_msgs)
-  set(carla_msgs_DEVEL_PREFIX /home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/devel)
+  set(carla_msgs_SOURCE_PREFIX /home/hackfest03/catkin_ws/src/ros-bridge/carla_msgs)
+  set(carla_msgs_DEVEL_PREFIX /home/hackfest03/catkin_ws/devel)
   set(carla_msgs_INSTALL_PREFIX "")
   set(carla_msgs_PREFIX ${carla_msgs_DEVEL_PREFIX})
 else()
   set(carla_msgs_SOURCE_PREFIX "")
   set(carla_msgs_DEVEL_PREFIX "")
-  set(carla_msgs_INSTALL_PREFIX /home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/install)
+  set(carla_msgs_INSTALL_PREFIX /home/hackfest03/catkin_ws/install)
   set(carla_msgs_PREFIX ${carla_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/install/lib;/home/hackfest03/ERA/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/hackfest03/catkin_ws/install/lib;/home/hackfest03/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

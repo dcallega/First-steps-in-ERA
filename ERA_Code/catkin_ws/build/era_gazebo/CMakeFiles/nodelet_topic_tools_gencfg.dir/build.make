@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hackfest03/ERA/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hackfest03/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hackfest03/ERA/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hackfest03/catkin_ws/build
 
 # Utility rule file for nodelet_topic_tools_gencfg.
 
@@ -63,10 +63,10 @@ era_gazebo/CMakeFiles/nodelet_topic_tools_gencfg.dir/build: nodelet_topic_tools_
 .PHONY : era_gazebo/CMakeFiles/nodelet_topic_tools_gencfg.dir/build
 
 era_gazebo/CMakeFiles/nodelet_topic_tools_gencfg.dir/clean:
-	cd /home/hackfest03/ERA/catkin_ws/build/era_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_topic_tools_gencfg.dir/cmake_clean.cmake
+	cd /home/hackfest03/catkin_ws/build/era_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_topic_tools_gencfg.dir/cmake_clean.cmake
 .PHONY : era_gazebo/CMakeFiles/nodelet_topic_tools_gencfg.dir/clean
 
 era_gazebo/CMakeFiles/nodelet_topic_tools_gencfg.dir/depend:
-	cd /home/hackfest03/ERA/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hackfest03/ERA/catkin_ws/src /home/hackfest03/ERA/catkin_ws/src/era_gazebo /home/hackfest03/ERA/catkin_ws/build /home/hackfest03/ERA/catkin_ws/build/era_gazebo /home/hackfest03/ERA/catkin_ws/build/era_gazebo/CMakeFiles/nodelet_topic_tools_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hackfest03/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hackfest03/catkin_ws/src /home/hackfest03/catkin_ws/src/era_gazebo /home/hackfest03/catkin_ws/build /home/hackfest03/catkin_ws/build/era_gazebo /home/hackfest03/catkin_ws/build/era_gazebo/CMakeFiles/nodelet_topic_tools_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : era_gazebo/CMakeFiles/nodelet_topic_tools_gencfg.dir/depend
 

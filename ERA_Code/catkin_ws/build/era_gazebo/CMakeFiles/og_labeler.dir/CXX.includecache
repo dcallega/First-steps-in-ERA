@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hackfest03/ERA/catkin_ws/devel/include/era_gazebo/DetectionBox.h
+/home/hackfest03/catkin_ws/devel/include/era_gazebo/DetectionBox.h
 string
 -
 vector
@@ -24,7 +24,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/hackfest03/ERA/catkin_ws/devel/include/era_gazebo/DetectionBoxList.h
+/home/hackfest03/catkin_ws/devel/include/era_gazebo/DetectionBoxList.h
 string
 -
 vector
@@ -44,7 +44,7 @@ std_msgs/Header.h
 era_gazebo/DetectionBox.h
 -
 
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/occupancy_grid_labeler.cpp
+/home/hackfest03/catkin_ws/src/era_gazebo/src/occupancy_grid_labeler.cpp
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -64,13 +64,13 @@ cv_bridge/cv_bridge.h
 sensor_msgs/Image.h
 -
 tf/transform_listener.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/tf/transform_listener.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/tf/transform_listener.h
 tf/message_filter.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/tf/message_filter.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/tf/message_filter.h
 nav_msgs/OccupancyGrid.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/nav_msgs/OccupancyGrid.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/nav_msgs/OccupancyGrid.h
 sensor_msgs/CameraInfo.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/sensor_msgs/CameraInfo.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/sensor_msgs/CameraInfo.h
 pcl_ros/point_cloud.h
 -
 pcl_ros/transforms.h
@@ -84,9 +84,9 @@ pcl/filters/statistical_outlier_removal.h
 pcl_conversions/pcl_conversions.h
 -
 era_gazebo/DetectionBoxList.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/era_gazebo/DetectionBoxList.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/era_gazebo/DetectionBoxList.h
 era_gazebo/DetectionBox.h
-/home/hackfest03/ERA/catkin_ws/src/era_gazebo/src/era_gazebo/DetectionBox.h
+/home/hackfest03/catkin_ws/src/era_gazebo/src/era_gazebo/DetectionBox.h
 
 /opt/ros/melodic/include/boost_161_condition_variable.h
 boost/thread/detail/platform.hpp

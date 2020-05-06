@@ -1,8 +1,8 @@
-# Install script for directory: /home/hackfest03/ERA/catkin_ws/src/dsrc
+# Install script for directory: /home/hackfest03/catkin_ws/src/dsrc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hackfest03/ERA/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hackfest03/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hackfest03/ERA/catkin_ws/build/dsrc/catkin_generated/installspace/dsrc.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hackfest03/catkin_ws/build/dsrc/catkin_generated/installspace/dsrc.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dsrc/cmake" TYPE FILE FILES
-    "/home/hackfest03/ERA/catkin_ws/build/dsrc/catkin_generated/installspace/dsrcConfig.cmake"
-    "/home/hackfest03/ERA/catkin_ws/build/dsrc/catkin_generated/installspace/dsrcConfig-version.cmake"
+    "/home/hackfest03/catkin_ws/build/dsrc/catkin_generated/installspace/dsrcConfig.cmake"
+    "/home/hackfest03/catkin_ws/build/dsrc/catkin_generated/installspace/dsrcConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dsrc" TYPE FILE FILES "/home/hackfest03/ERA/catkin_ws/src/dsrc/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dsrc" TYPE FILE FILES "/home/hackfest03/catkin_ws/src/dsrc/package.xml")
 endif()
 

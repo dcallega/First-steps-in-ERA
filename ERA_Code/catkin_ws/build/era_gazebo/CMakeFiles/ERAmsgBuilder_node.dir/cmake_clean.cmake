@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ERAmsgBuilder_node.dir/src/ERAmsgBuilder.cpp.o"
-  "/home/hackfest03/ERA/catkin_ws/devel/lib/era_gazebo/ERAmsgBuilder_node.pdb"
-  "/home/hackfest03/ERA/catkin_ws/devel/lib/era_gazebo/ERAmsgBuilder_node"
+  "/home/hackfest03/catkin_ws/devel/lib/era_gazebo/ERAmsgBuilder_node.pdb"
+  "/home/hackfest03/catkin_ws/devel/lib/era_gazebo/ERAmsgBuilder_node"
 )
 
 # Per-language clean rules from dependency scanning.

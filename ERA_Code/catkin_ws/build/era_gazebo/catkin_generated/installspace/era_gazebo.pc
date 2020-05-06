@@ -1,4 +1,4 @@
-prefix=/home/hackfest03/First-steps-in-ERA/ERA_Code/catkin_ws/install
+prefix=/home/hackfest03/catkin_ws/install
 
 Name: era_gazebo
 Description: Description of era_gazebo
