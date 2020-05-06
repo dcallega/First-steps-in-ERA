@@ -1,13 +1,13 @@
 global_frame: map
-robot_base_frame: uci_vehicle/odom
-update_frequency: 10.0
-publish_frequency: 10.0
+robot_base_frame: uci_vehicle
+update_frequency: 20.0
+publish_frequency: 20.0
 rolling_window: true
 always_send_full_costmap: true
 static_map: false
 width: 100.0
 height: 100.0
-resolution: 0.5
+resolution: 3.0
 plugins:
   - {name: obstacles, type: "costmap_2d::ObstacleLayer"}
 obstacles:

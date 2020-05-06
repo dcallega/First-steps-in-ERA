@@ -1,0 +1,6 @@
+<launch>
+    <node name="costmap_node" pkg="costmap_2d" type="costmap_2d_node" >
+    <rosparam file="$(find era_gazebo)/launch/uci_vehicle_costmap_2d.yaml" command="load" ns="costmap" />
+    <remap from="costmap_node/costmap/costmap" to="local_map"/>
+  </node>
+</launch>

@@ -33,11 +33,7 @@
     <arg name='role_name' value='$(arg role_name)'/>
   </include>
 
-  <node pkg="tf" type="static_transform_publisher" name="transform_publisher" args="0 0 0 0 0 0 /map /$(arg role_name)/odom 100"/>
+  
 
-  <node name="costmap_node" pkg="costmap_2d" type="costmap_2d_node" >
-    <rosparam file="$(find era_gazebo)/launch/$(arg role_name)_costmap_2d.yaml" command="load" ns="costmap" />
-    <remap from="costmap_node/costmap/costmap" to="local_map"/>
-  </node>
 
 </launch>
