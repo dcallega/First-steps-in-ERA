@@ -1,0 +1,9 @@
+- git:
+    local-name: era_gazebo
+    uri: https://github.com/IBM/era_gazebo.git
+    version: master
+
+- git:
+    local-name: dsrc
+    uri: https://github.com/IBM/dsrc.git
+    version: master

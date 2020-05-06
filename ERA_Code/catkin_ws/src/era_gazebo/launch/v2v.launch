@@ -1,0 +1,43 @@
+<launch>
+
+<arg name="robot_name" default="erebor"/>
+
+<arg name="urdf_file" default="$(find era_gazebo)/launch/simple_box.urdf" />
+
+<param name="simple_box_description" textfile="$(arg urdf_file)" />
+
+<node pkg="era_gazebo" name="ERAmsgBuilder_node" type="ERAmsgBuilder_node" >
+  <param name="ID" value="$(arg robot_name)"/>
+</node>
+
+<node pkg="era_gazebo" name="ERAmsgInterpreter_node" type="ERAmsgInterpreter_node" >
+</node>
+
+<arg name="local_ip" default="9.2.194.176" />
+<arg name="remote_ip" default="9.31.103.68" />
+<arg name="local_port" default="52001" />
+<arg name="remote_port" default="52002" />
+<arg name="namespace" default="$(arg robot_name)" />
+
+<node pkg="dsrc" name="wifi_transceiver"
+    launch-prefix=""
+    type="wifi_transceiver.py"
+    args="--local-ip $(arg local_ip)
+          --remote-ip $(arg remote_ip)
+          --ros-namespace $(arg namespace)
+          --local-port $(arg local_port)
+          --remote-port $(arg remote_port)
+          --encoding 0
+          --freq 5890000000
+          --samp-rate 10e6
+          --tx-gain 0.75
+          --rx-gain 0.75
+          --chan-est 0
+          --lo-offset 0"
+    output="screen"/>
+
+
+<node pkg="era_gazebo" name="map_fuser" type="map_fuser"/>
+
+</launch>
+

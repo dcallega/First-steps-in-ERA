@@ -1,0 +1,15 @@
+global_frame: map
+robot_base_frame: ego_vehicle/odometry
+update_frequency: 20.0
+publish_frequency: 20.0
+rolling_window: true
+always_send_full_costmap: true
+static_map: false
+width: 5.0
+height: 5.0
+resolution: 0.05
+plugins:
+  - {name: obstacles, type: "costmap_2d::ObstacleLayer"}
+obstacles:
+  observation_sources: lidar
+  lidar: {data_type: PointCloud2, sensor_frame: ego_vehicle/odometry, clearing: true, marking: true, topic: /carla/uci_vehicle/lidar/lidar1/point_cloud}
