@@ -5,11 +5,23 @@ publish_frequency: 20.0
 rolling_window: true
 always_send_full_costmap: true
 static_map: false
-width: 100.0
-height: 100.0
-resolution: 3.0
+width: 80.0
+height: 80.0
+resolution: 0.1
 plugins:
   - {name: obstacles, type: "costmap_2d::ObstacleLayer"}
+  - {name: inflater_layer, type: "costmap_2d::InflationLayer"}
+
+inflater_layer:
+    inflation_radius: 0.05
+    cost_scaling_factor: 0.5
+
 obstacles:
   observation_sources: lidar
-  lidar: {data_type: PointCloud2, sensor_frame: uci_vehicle/lidar/lidar1, clearing: true, marking: true, topic: /carla/uci_vehicle/lidar/lidar1/point_cloud}
+  lidar: {data_type: PointCloud2, sensor_frame: uci_vehicle/lidar/lidar1, max_obstacle_height: 60.0, min_obstacle_height: 0.05, obstacle_range: 80, raytrace_range: 80.0, clearing: true, marking: true, topic: /carla/uci_vehicle/lidar/lidar1/point_cloud}
+
+
+
+
+
+

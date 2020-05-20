@@ -12,7 +12,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- *
+ * +"/"+target_frame
+ * +"/base_footprint"
  */
 
 #include <ros/ros.h>
@@ -26,16 +27,16 @@
 class ERAmsgBuilder
 {
 public:
-	ERAmsgBuilder(): tf(), target_frame("test") 
+	ERAmsgBuilder(): tf(), target_frame("") 
 	{
 		grid_sub.subscribe(n, "local_map", 100);
 		n.getParam("tf_prefix", tf_prefix);
-		tf_filter = new tf::MessageFilter<nav_msgs::OccupancyGrid>(grid_sub, tf, tf_prefix+"/"+target_frame, 100);
+		tf_filter = new tf::MessageFilter<nav_msgs::OccupancyGrid>(grid_sub, tf, tf_prefix, 100);
 		tf_filter->registerCallback( boost::bind(&ERAmsgBuilder::callback, this, _1) );
 		pub = n.advertise<era_gazebo::ERAMsg>("transmit_msg", 100);
 
 		n.getParam("ERAmsgBuilder_node/ID", out_msg.ID);
-		ROS_INFO_STREAM("CAR ID: " << out_msg.ID);
+		ROS_INFO_STREAM("ROBOT ID: " << out_msg.ID);
 	}
 private:
 	message_filters::Subscriber<nav_msgs::OccupancyGrid> grid_sub;
@@ -52,7 +53,7 @@ private:
 		tf::StampedTransform transform;
 		
     	try{
-      		 tf.lookupTransform("/map", tf_prefix+"/test",  
+      		 tf.lookupTransform("/map", tf_prefix,  
                                 ros::Time(grid_ptr->header.stamp), transform);
     		}
     	catch (tf::TransformException ex){

@@ -2,18 +2,11 @@
 <launch>
 
   <arg name="namespace" default="uci_vehicle_1" />
-  <arg name="initX" default="0" />
-  <arg name="initY" default="0" />
-  <arg name="initZ" default="0" />
 
   <param name="tf_prefix" value="$(arg namespace)"/>
 
-    <node pkg="tf" type="static_transform_publisher" name="transform_publisher" args="0 0 0 0 0 0 /map /$(arg namespace)/odom 100"/>
-
-  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
-    <param name="publish_frequency" type="double" value="30.0" />
-  </node>
-  
+  <include file="$(find era_gazebo)/vehicle_description/launch/prius.launch">
+  </include>
 
   <node name="costmap_node" pkg="costmap_2d" type="costmap_2d_node" >
     <rosparam file="$(find era_gazebo)/launch/$(arg namespace)_costmap_2d.yaml" command="load" ns="costmap" />

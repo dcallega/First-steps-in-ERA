@@ -1,0 +1,55 @@
+<!-- -->
+<launch>
+
+  <arg name='host' default='localhost'/>
+  <arg name='port' default='2000'/>
+  <arg name='role_name_1' default='uci_vehicle_1'/>
+  <arg name='role_name_2' default='uci_vehicle_2'/>
+  <arg name="vehicle_filter" default='vehicle.tesla.model3'/>
+  <arg name="spawn_point" default=""/>
+  <arg name="town" default=''/>
+  <arg name='synchronous_mode' default=''/>
+  <arg name='synchronous_mode_wait_for_vehicle_control_command' default=''/>
+  <arg name='fixed_delta_seconds' default=''/>
+
+  <include file="$(find carla_ros_bridge)/launch/carla_ros_bridge.launch">
+    <arg name='host' value='$(arg host)'/>
+    <arg name='port' value='$(arg port)'/>
+    <arg name='town' value='$(arg town)'/>
+    <arg name='synchronous_mode' value='$(arg synchronous_mode)'/>
+    <arg name='synchronous_mode_wait_for_vehicle_control_command' value='$(arg synchronous_mode_wait_for_vehicle_control_command)'/>
+    <arg name='fixed_delta_seconds' value='$(arg fixed_delta_seconds)'/>
+  </include>
+
+
+  <group ns="$(arg role_name_1)">
+    <include file="$(find carla_uci_vehicle)/launch/carla_example_uci_vehicle.launch">
+      <arg name='host' value='$(arg host)'/>
+      <arg name='port' value='$(arg port)'/>
+      <arg name="vehicle_filter" value='$(arg vehicle_filter)'/>
+      <arg name='role_name' value='$(arg role_name_1)'/>
+      <arg name="spawn_point" value="$(arg spawn_point)"/>
+    </include>
+
+    <include file="$(find carla_manual_control)/launch/carla_manual_control.launch">
+      <arg name='role_name' value='$(arg role_name_1)'/>
+    </include>
+  </group>
+
+  <group ns="$(arg role_name_2)">
+    <include file="$(find carla_uci_vehicle)/launch/carla_example_uci_vehicle.launch">
+      <arg name='host' value='$(arg host)'/>
+      <arg name='port' value='$(arg port)'/>
+      <arg name="vehicle_filter" value='$(arg vehicle_filter)'/>
+      <arg name='role_name' value='$(arg role_name_2)'/>
+      <arg name="spawn_point" value="$(arg spawn_point)"/>
+    </include>
+
+    <include file="$(find carla_manual_control)/launch/carla_manual_control.launch">
+      <arg name='role_name' value='$(arg role_name_2)'/>
+    </include>
+  </group>
+
+
+
+</launch>

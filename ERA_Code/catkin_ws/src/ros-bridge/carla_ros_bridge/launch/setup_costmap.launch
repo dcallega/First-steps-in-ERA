@@ -1,0 +1,22 @@
+<!-- -->
+<launch>
+
+
+ <group ns="uci_vehicle_1">
+
+    <include file="$(find era_gazebo)/launch/car.launch">
+      <arg name="namespace" value="uci_vehicle_1" />
+     </include>
+
+  </group>
+
+  <group ns="uci_vehicle_2">
+
+    <include file="$(find era_gazebo)/launch/car.launch">
+      <arg name="namespace" value="uci_vehicle_2" />
+     </include>
+
+  </group>
+</launch>
+
+

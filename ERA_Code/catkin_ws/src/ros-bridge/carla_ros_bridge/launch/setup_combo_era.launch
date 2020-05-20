@@ -1,0 +1,42 @@
+<!-- -->
+<launch>
+
+  <arg name='host' default='localhost'/>
+  <arg name='port' default='2000'/>
+  <arg name='role_name_1' default='uci_vehicle_1'/>
+  <arg name='role_name_2' default='uci_vehicle_2'/>
+  <arg name="vehicle_filter" default='vehicle.*'/>
+  <arg name="spawn_point" default=""/>
+  <arg name='fixed_delta_seconds' default=''/>
+
+
+ <group ns="$(arg role_name_1)">
+
+     <include file="$(find era_gazebo)/launch/car.launch">
+      <arg name="namespace" value="$(arg role_name_1)" />
+     </include>
+     <include file="$(find era_gazebo)/launch/v2v.launch">
+     	<arg name="robot_name" value="$(arg role_name_1)" />
+     	<arg name="local_ip" value="127.0.0.1" />
+		<arg name="remote_ip" value="127.0.0.1" />
+		<arg name="local_port" value="52001" />
+		<arg name="remote_port" value="52002" />
+     </include>
+  </group>
+
+  <group ns="$(arg role_name_2)">
+
+    <include file="$(find era_gazebo)/launch/car.launch">
+      <arg name="namespace" value="$(arg role_name_1)" />
+    </include>
+    <include file="$(find era_gazebo)/launch/v2v.launch">
+     	<arg name="robot_name" value="$(arg role_name_2)" />
+     	<arg name="local_ip" value="127.0.0.1" />
+		<arg name="remote_ip" value="127.0.0.1" />
+		<arg name="local_port" value="52002" />
+		<arg name="remote_port" value="52001" />
+    </include>
+  </group>
+</launch>
+
+

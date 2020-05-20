@@ -1,0 +1,17 @@
+<!-- -->
+<launch>
+
+  <arg name="namespace" default="uci_vehicle" />
+
+  <group ns="uci_vehicle">
+	  <param name="tf_prefix" value="$(arg namespace)"/>
+
+	  <include file="$(find era_gazebo)/vehicle_description/launch/prius.launch">
+	  </include>
+
+	  <node pkg="era_gazebo" name="ERAmsgBuilder_node" type="ERAmsgBuilder_node" >
+	    <param name="ID" value="$(arg namespace)"/>
+	  </node>
+  </group>
+
+</launch>
